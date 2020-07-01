@@ -113,7 +113,7 @@ export default function Index (props) {
                   tabButton: "Overview",
                   tabContent: (
                     <div style={{color: "white", textAlign: "center", fontSize: "calc(1vw + 2.5vh)", paddingBottom: "20px"}}>
-                       <p>Despite learning to code in 2020, I have been able to learn a plethora of skills in a short period of time. Through a coding bootcamp, I have spent the last four months studying and practicing full time between twelve to fourteen hours a day. Eight hours of class with consistent four or more hours of assignments each night has given me the ability to learn the skills neccessary to create fantastic, functional applications. The scores I am giving myself is how comfortable I feel whether it be conceptually or practically. 1 being uncomfortable and 10 being very comfortable.</p>
+                       <p>Beginning my coding journey in 2020 I have been able to learn a plethora of skills in a short period of time. Through a coding bootcamp, I have spent four months studying and practicing full time between twelve to fourteen hours a day. Eight hours of class with consistent four or more hours of assignments each night has given me the ability to learn the skills neccessary to create fantastic, functional applications. The scores I am giving myself is how comfortable I feel whether it be conceptually or practically. 1 being uncomfortable and 10 being very comfortable.</p>
                     </div>
                   )
                 },
@@ -321,28 +321,75 @@ export default function Index (props) {
             <h1 style={{width: "100%", display: "flex", justifyContent: "center", fontSize: "3rem", marginBottom: "0"}}>Projects</h1>             
             <div className={carouselClass.section} id="carousel" style={{width: "100% !important", display: "flex", justifyContent:"center", margin: "0", padding: "0"}}>
               <div className={carouselClass.container}>
-                <Carousel {...settings}> 
-                {props.projects.map((project, index)=>{
-                      return (
-                      <div key={index} style={{width: "100% !important", border: "solid black"}}>
+                <Carousel {...settings}>
+                      <div style={{width: "100% !important", border: "solid black"}}>
                       <Card style={{width: "99%", textAlign: 'center', boxShadow: "0 0 .8rem grey"}}>
                       <img
                       style={{ height: "180px", width: "100%", display: "block"}}
                       className={headerClass.imgCardTop}
-                      src={project.image}
+                      src="https://i.imgur.com/RO4mQWd.png"
                       alt="Application Image"
                       />
                       <CardBody>
-                          <h1 className={headerClass.cardTitle}>{project.title}</h1>
+                          <h1 className={headerClass.cardTitle}>hORCules</h1>
                           <div style={{display: "flex", flexFlow: "row", flexWrap: "wrap", justifyContent: "space-evenly"}}>
-                          <Button color="info" href={`${project.code}`} target="_blank" rel="noopener noreferrer">Github</Button>
-                          <Button color="danger" href={`${project.deployment}`} target="_blank" rel="noopener noreferrer">Live Application!</Button>
+                          <Button color="info" href="https://github.com/Clobek/hORCules" target="_blank" rel="noopener noreferrer">Github</Button>
+                          <Button color="danger" href="#" target="_blank" rel="noopener noreferrer">Live Application!</Button>
                           </div> 
                       </CardBody>
                       </Card>
                       </div>
-                      )
-                  })}
+                      <div style={{width: "100% !important", border: "solid black"}}>
+                      <Card style={{width: "99%", textAlign: 'center', boxShadow: "0 0 .8rem grey"}}>
+                      <img
+                      style={{ height: "180px", width: "100%", display: "block"}}
+                      className={headerClass.imgCardTop}
+                      src="https://i.imgur.com/QOeEHjT.png"
+                      alt="Application Image"
+                      />
+                      <CardBody>
+                          <h1 className={headerClass.cardTitle}>Faithbook</h1>
+                          <div style={{display: "flex", flexFlow: "row", flexWrap: "wrap", justifyContent: "space-evenly"}}>
+                          <Button color="info" href="https://github.com/Clobek/FaithBook" target="_blank" rel="noopener noreferrer">Github</Button>
+                          <Button color="danger" href="https://belock.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
+                          </div> 
+                      </CardBody>
+                      </Card>
+                      </div>
+                      <div style={{width: "100% !important", border: "solid black"}}>
+                      <Card style={{width: "99%", textAlign: 'center', boxShadow: "0 0 .8rem grey"}}>
+                      <img
+                      style={{ height: "180px", width: "100%", display: "block"}}
+                      className={headerClass.imgCardTop}
+                      src="https://i.imgur.com/BmsWrXT.png"
+                      alt="Application Image"
+                      />
+                      <CardBody>
+                          <h1 className={headerClass.cardTitle}>Shipperific</h1>
+                          <div style={{display: "flex", flexFlow: "row", flexWrap: "wrap", justifyContent: "space-evenly"}}>
+                          <Button color="info" href="https://github.com/Clobek/Shipperific" target="_blank" rel="noopener noreferrer">Github</Button>
+                          <Button color="danger" href="https://shipperific.netlify.app/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
+                          </div> 
+                      </CardBody>
+                      </Card>
+                      </div>
+                      <div style={{width: "100% !important", border: "solid black"}}>
+                      <Card style={{width: "99%", textAlign: 'center', boxShadow: "0 0 .8rem grey"}}>
+                      <img
+                      style={{ height: "180px", width: "100%", display: "block"}}
+                      className={headerClass.imgCardTop}
+                      src="https://i.imgur.com/BmsWrXT.png"
+                      alt="Application Image"
+                      />
+                      <CardBody>
+                          <h1 className={headerClass.cardTitle}>Shipperific</h1>
+                          <div style={{display: "flex", flexFlow: "row", flexWrap: "wrap", justifyContent: "space-evenly"}}>
+                          <Button color="info" href="https://github.com/Clobek/Shipperific" target="_blank" rel="noopener noreferrer">Github</Button>
+                          <Button color="danger" href="https://shipperific.netlify.app/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
+                          </div> 
+                      </CardBody>
+                      </Card>
+                      </div>
                 </Carousel>
               </div>
             </div>
@@ -398,7 +445,7 @@ export default function Index (props) {
                       <h2>Front-End</h2>
                       <p>The front-end is written in JavaScript with NextJS as the framework. I'm making use of a UI Kit called NextJS Material Kit which is based on Material-UI, as well as some React inline styling.</p>
                       <h2>Back-End</h2>
-                      <p>The back-end's code was written in Python using Django as the framework for managing the route(s) and storing the data in PostgreSQL. The back-end is currently running on a linux based VPS through DigitalOcean.</p>
+                      <p>Originally written in Python using Django as the framework for managing the routes and storing the data in PostgeSQL. Once running on a linux based VPS through DigitalOcean, all data is now hardcoded for efficiency due to the scale and needs of my porfolio.</p>
                     </DialogContent>
                   </Dialog>
                   </ListItem>
