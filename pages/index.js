@@ -56,6 +56,7 @@ export default function Index (props) {
       <>
       <Head>
       <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"></link>
       <title>Bryce Belock Portfolio</title>
       </Head>
           <div style={{position: "sticky", top: "0", zIndex: "2", borderBottom: "solid white 1px", margin: "0 !important", padding: "0 !important"}}>
@@ -63,7 +64,7 @@ export default function Index (props) {
             color="dark"
             links={
               <div className={headerClass.collapse}>
-              <div className={headerClass.mrAuto} style={{fontSize: "4rem", textAlign: "center"}}>Bryce Belock</div>
+              <div className={headerClass.mrAuto} style={{fontSize: "4rem", textAlign: "center", fontFamily: "'Montserrat', sans-serif", textShadow: "0 0 10px grey", letterSpacing: "1px"}}>Bryce Belock</div>
               <List className={headerClass.list + " " + headerClass.mlAuto}>
                 <ListItem className={headerClass.listItem}>
                   <Button
@@ -106,13 +107,13 @@ export default function Index (props) {
             }/>
             </div>
             <div id="about" style={{display: "block", content: "", marginTop: "-75px", height: "75px", visibility: "hidden"}}></div>
-            <h1 style={{textAlign: "center", width: "100%", display: "flex", justifyContent: "center", fontSize: "3.5rem", marginBottom: "0", color: "black", paddingTop: "30px"}}>Software Engineer</h1>
+            <h1 style={{textAlign: "center", width: "100%", display: "flex", justifyContent: "center", fontSize: "3.5rem", marginBottom: "0", color: "black", paddingTop: "30px", fontFamily: "'Montserrat', sans-serif", textShadow: "0 0 10px grey", letterSpacing: "1px"}}>Software Engineer</h1>
             <div style={{backgroundImage: "url('https://i.imgur.com/sx7WWrA.png')", backgroundSize: "cover", width: "calc(16vw + 16vh)", height:"calc(10.64vw + 10.64vh)", margin: "auto"}}></div>
-            <div style={{color: "black", textAlign: "center", fontSize: "calc(1vw + 2.5vh)", paddingBottom: "20px", letterSpacing: "1.1px", textShadow: "0 0 8px white", marginLeft: "10px", marginRight: "10px"}}>Growing up I wanted to be a game developer; that eventually evolved into an aspiring computer engineer. From an early age I have had a passion for all things computer related. Writing code has caused both frustration and at the same time some of my greatest feelings of accomplishment. The challenge drives me to continue learning every day. I enjoy the creative outlet coding offers me and I look forward to creating applications that both impress but more importantly serve a purpose.
+            <div style={{color: "black", textAlign: "center", fontSize: "calc(1vw + 2.5vh)", paddingBottom: "20px", letterSpacing: "1.1px", textShadow: "0 0 8px white", marginLeft: "10px", marginRight: "10px", fontFamily: "'Montserrat', sans-serif", textShadow: "0 0 10px grey"}}>Growing up I wanted to be a game developer; that eventually evolved into an aspiring computer engineer. From an early age I have had a passion for all things computer related. Writing code has caused both frustration and at the same time some of my greatest feelings of accomplishment. The challenge drives me to continue learning every day. I enjoy the creative outlet coding offers me and I look forward to creating applications that both impress but more importantly serve a purpose.
             </div>
             <div id="skills" style={{display: "block", content: "", marginTop: "-75px", height: "75px", visibility: "hidden"}}></div>
             <div style={{backgroundColor: "#212121", borderRadius: "3px"}}>
-            <h1 style={{width: "100%", display: "flex", justifyContent: "center", fontSize: "3.5rem", marginBottom: "0", color: "ghostwhite", paddingTop: "30px"}}>Skills</h1>
+            <h1 style={{width: "100%", display: "flex", justifyContent: "center", fontSize: "3.5rem", marginBottom: "0", color: "ghostwhite", paddingTop: "60px", paddingBottom: "20px", fontFamily: "'Montserrat', sans-serif", textShadow: "0 0 10px grey", letterSpacing: "1px"}}>Skills</h1>
             <NavPills
               color="white"
               alignCenter
@@ -120,7 +121,7 @@ export default function Index (props) {
                 {
                   tabButton: "Overview",
                   tabContent: (
-                    <div style={{color: "white", textAlign: "center", fontSize: "calc(1vw + 2.5vh)", paddingBottom: "20px", letterSpacing: "1.1px", paddingTop: "30px"}}>
+                    <div style={{color: "white", textAlign: "center", fontSize: "calc(1vw + 2.5vh)", paddingBottom: "20px", letterSpacing: "1.1px", paddingTop: "30px", fontFamily: "'Montserrat', sans-serif", textShadow: "0 0 10px grey"}}>
                        <p>Beginning my coding journey in 2020, I have been able to learn many skills in a short period of time. Through a coding bootcamp, I have spent four months studying and practicing full time between twelve to fourteen hours a day. Eight hours of class with consistent four or more hours of assignments each night has given me the ability to learn the skills neccessary to create fantastic, functional applications. The scores I am giving myself is how comfortable I feel whether it be conceptually or practically. 1 being uncomfortable and 10 being very comfortable.</p>
                     </div>
                   )
@@ -128,7 +129,7 @@ export default function Index (props) {
                 {
                   tabButton: "Frontend",
                   tabContent: (
-                    <div style={{color: "white", textAlign: "center", fontSize: "1.3rem", paddingBottom: "20px"}}>
+                    <div style={{color: "white", textAlign: "center", fontSize: "1.3rem", paddingBottom: "20px", fontFamily: "'Montserrat', sans-serif", textShadow: "0 0 10px grey"}}>
                       <div>
                         JavaScript
                       <CustomLinearProgress
@@ -194,7 +195,7 @@ export default function Index (props) {
                 {
                   tabButton: "Backend",
                   tabContent: (
-                    <div style={{color: "white", textAlign: "center", fontSize: "1.3rem", paddingBottom: "20px", margin: "auto"}}>
+                    <div style={{color: "white", textAlign: "center", fontSize: "1.3rem", paddingBottom: "20px", margin: "auto", fontFamily: "'Montserrat', sans-serif", textShadow: "0 0 10px grey"}}>
                       <div>
                         Python
                       <CustomLinearProgress
@@ -260,7 +261,7 @@ export default function Index (props) {
                 {
                   tabButton: "Misc",
                   tabContent: (
-                    <div style={{color: "white", textAlign: "center", fontSize: "1.3rem", paddingBottom: "20px"}}>
+                    <div style={{color: "white", textAlign: "center", fontSize: "1.3rem", paddingBottom: "20px", fontFamily: "'Montserrat', sans-serif", textShadow: "0 0 10px grey"}}>
                       <div>
                         GitHub
                       <CustomLinearProgress
@@ -327,8 +328,8 @@ export default function Index (props) {
             />
             </div>
             <div id="projects" style={{display: "block", content: "", marginTop: "-75px", height: "75px", visibility: "hidden"}}></div>
-            <h1 style={{width: "100%", display: "flex", justifyContent: "center", fontSize: "3.5rem", marginBottom: "0"}}>Projects</h1>             
-            <div className={carouselClass.section} id="carousel" style={{width: "100% !important", display: "flex", justifyContent:"center", margin: "0", padding: "0"}}>
+            <h1 style={{width: "100%", display: "flex", justifyContent: "center", fontSize: "3.5rem", marginBottom: "0", fontFamily: "'Montserrat', sans-serif", textShadow: "0 0 10px grey", letterSpacing: "1px"}}>Projects</h1>             
+            <div className={carouselClass.section} id="carousel" style={{width: "100% !important", display: "flex", justifyContent:"center", margin: "0", padding: "0", paddingBottom: "20px"}}>
               <div className={carouselClass.container}>
                 <Carousel {...settings}>
                       <div style={{width: "100% !important", border: "solid black"}}>
@@ -485,12 +486,12 @@ export default function Index (props) {
                         {" "}
                         <Close className={modalclass.modalClose} />
                       </Button>
-                      <h1 className={modalclass.modalTitle}>Technologies Used</h1>
+                      <h1 className={modalclass.modalTitle} style={{fontFamily: "'Montserrat', sans-serif", letterSpacing: "1px"}}>Technologies Used</h1>
                     </DialogTitle>
                     <DialogContent
                       id="classic-modal-slide-description"
                       className={modalclass.modalBody}
-                      style={{paddingTop: "0"}}
+                      style={{paddingTop: "0", fontFamily: "'Montserrat', sans-serif", letterSpacing: "1px"}}
                     >
                       <h2>Front-End</h2>
                       <p>The front-end is written in JavaScript with NextJS as the framework. I'm making use of a UI Kit called NextJS Material Kit which is based on Material-UI, as well as some React inline styling.</p>
@@ -535,12 +536,12 @@ export default function Index (props) {
                         {" "}
                         <Close className={modalclass.modalClose} />
                       </Button>
-                      <h1 className={modalclass.modalTitle}>Contact Information</h1>
+                      <h1 className={modalclass.modalTitle} style={{fontFamily: "'Montserrat', sans-serif", letterSpacing: "1px"}}>Contact Information</h1>
                     </DialogTitle>
                     <DialogContent
                       id="classic-modal-slide-description"
                       className={modalclass.modalBody}
-                      style={{paddingTop: "0"}}
+                      style={{paddingTop: "0", fontFamily: "'Montserrat', sans-serif", letterSpacing: "1px"}}
                     >
                       <h2>Location: Bettendorf, Iowa</h2>
                       <h2>Phone: (563)320-4663</h2>
