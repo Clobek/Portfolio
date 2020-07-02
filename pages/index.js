@@ -21,7 +21,6 @@ import CardBody from "components/Card/CardBody.js";
 import Button from "components/CustomButtons/Button.js";
 import Footer from "components/Footer/Footer.js";
 import CustomLinearProgress from "components/CustomLinearProgress/CustomLinearProgress.js";
-import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
 
 import carouselStyle from "assets/jss/nextjs-material-kit-pro/pages/componentsSections/carouselStyle.js";
 import navbarsStyle from "assets/jss/nextjs-material-kit-pro/pages/componentsSections/navbarsStyle.js";
@@ -109,7 +108,7 @@ export default function Index (props) {
             <div id="about" style={{display: "block", content: "", marginTop: "-75px", height: "75px", visibility: "hidden"}}></div>
             <h1 style={{textAlign: "center", width: "100%", display: "flex", justifyContent: "center", fontSize: "3.5rem", marginBottom: "0", color: "black", paddingTop: "30px"}}>Software Engineer</h1>
             <div style={{backgroundImage: "url('https://i.imgur.com/sx7WWrA.png')", backgroundSize: "cover", width: "calc(16vw + 16vh)", height:"calc(10.64vw + 10.64vh)", margin: "auto"}}></div>
-            <div style={{color: "black", textAlign: "center", fontSize: "calc(1vw + 2.5vh)", paddingBottom: "20px", letterSpacing: "1.1px", textShadow: "0 0 8px white", marginLeft: "10px", marginRight: "10px"}}>Growing up I wanted to be a game developer which evolved into wanting to become a computer engineer. From an early age I have had a passion for all things computer related. Writing code has caused both frustration and at the same time some of my greatest feelings of accomplishment. The challenge drives me to continue learning every day. I enjoy the creative outlet coding offers me and I look forward to creating applications that both impress but more importantly serve a purpose.
+            <div style={{color: "black", textAlign: "center", fontSize: "calc(1vw + 2.5vh)", paddingBottom: "20px", letterSpacing: "1.1px", textShadow: "0 0 8px white", marginLeft: "10px", marginRight: "10px"}}>Growing up I wanted to be a game developer; that eventually evolved into an aspiring computer engineer. From an early age I have had a passion for all things computer related. Writing code has caused both frustration and at the same time some of my greatest feelings of accomplishment. The challenge drives me to continue learning every day. I enjoy the creative outlet coding offers me and I look forward to creating applications that both impress but more importantly serve a purpose.
             </div>
             <div id="skills" style={{display: "block", content: "", marginTop: "-75px", height: "75px", visibility: "hidden"}}></div>
             <div style={{backgroundColor: "#212121", borderRadius: "3px"}}>
@@ -337,14 +336,15 @@ export default function Index (props) {
                       <img
                       style={{ height: "180px", width: "100%", display: "block"}}
                       className={headerClass.imgCardTop}
-                      src="https://i.imgur.com/5ZjPvuA.png"
+                      src="https://i.imgur.com/uK3DBrS.png"
                       alt="Application Image"
                       />
                       <CardBody>
-                          <h1 className={headerClass.cardTitle}>hORCules</h1>
+                          <h1 className={headerClass.cardTitle} style={{marginBottom: "0"}}>Landscaper</h1>
+                          <h3 className={headerClass.cardSubtitle} style={{marginTop: "0"}}>Week 1 Assignment</h3>
                           <div style={{display: "flex", flexFlow: "row", flexWrap: "wrap", justifyContent: "space-evenly"}}>
-                          <Button color="info" href="https://github.com/Clobek/hORCules" target="_blank" rel="noopener noreferrer">Github</Button>
-                          <Button color="danger" href="https://horcules.netlify.app/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
+                          <Button color="info" href="https://github.com/Clobek/Landscaper" target="_blank" rel="noopener noreferrer">Github</Button>
+                          <Button color="danger" href="https://dom-landscaper.netlify.app/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
                           </div> 
                       </CardBody>
                       </Card>
@@ -354,11 +354,66 @@ export default function Index (props) {
                       <img
                       style={{ height: "180px", width: "100%", display: "block"}}
                       className={headerClass.imgCardTop}
-                      src="https://i.imgur.com/CqkP6Cn.png"
+                      src="https://i.imgur.com/tVJ4xa4.png"
                       alt="Application Image"
                       />
                       <CardBody>
-                          <h1 className={headerClass.cardTitle}>Faithbook</h1>
+                          <h1 className={headerClass.cardTitle} style={{marginBottom: "0"}}>Spacebattle</h1>
+                          <h3 className={headerClass.cardSubtitle} style={{marginTop: "0"}}>Week 2 Assignment</h3>
+                          <div style={{display: "flex", flexFlow: "row", flexWrap: "wrap", justifyContent: "space-evenly"}}>
+                          <Button color="info" href="https://github.com/Clobek/Spacebattle" target="_blank" rel="noopener noreferrer">Github</Button>
+                          <Button color="danger" href="https://dom-space-battle.netlify.app/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
+                          </div> 
+                      </CardBody>
+                      </Card>
+                      </div>
+                      <div style={{width: "100% !important", border: "solid black"}}>
+                      <Card style={{width: "99%", textAlign: 'center', boxShadow: "0 0 .8rem grey"}}>
+                      <img
+                      style={{ height: "180px", width: "100%", display: "block"}}
+                      className={headerClass.imgCardTop}
+                      src="https://i.imgur.com/vthI2Yh.png"
+                      alt="Application Image"
+                      />
+                      <CardBody>
+                      <h1 className={headerClass.cardTitle} style={{marginBottom: "0"}}>Bookmarkd</h1>
+                      <h3 className={headerClass.cardSubtitle} style={{marginTop: "0"}}>1st Team Assignment</h3>
+                      <div style={{display: "flex", flexFlow: "row", flexWrap: "wrap", justifyContent: "space-evenly"}}>
+                      <Button color="info" href="https://github.com/Clobek/Bookmarkd" target="_blank" rel="noopener noreferrer">Github</Button>
+                      <Button color="danger" href="https://bookmarkd.netlify.app/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
+                      </div> 
+                      </CardBody>
+                      </Card>
+                      </div>
+                      <div style={{width: "100% !important", border: "solid black"}}>
+                      <Card style={{width: "99%", textAlign: 'center', boxShadow: "0 0 .8rem grey"}}>
+                      <img
+                      style={{ height: "180px", width: "100%", display: "block"}}
+                      className={headerClass.imgCardTop}
+                      src="https://i.imgur.com/wt0txZA.png"
+                      alt="Application Image"
+                      />
+                      <CardBody>
+                      <h1 className={headerClass.cardTitle} style={{marginBottom: "0"}}>hORCules</h1>
+                      <h3 className={headerClass.cardSubtitle} style={{marginTop: "0"}}>Unit 1 Project</h3>
+                      <div style={{display: "flex", flexFlow: "row", flexWrap: "wrap", justifyContent: "space-evenly"}}>
+                      <Button color="info" href="https://github.com/Clobek/hORCules" target="_blank" rel="noopener noreferrer">Github</Button>
+                      <Button color="danger" href="https://horcules.netlify.app/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
+                      </div> 
+                      </CardBody>
+                      </Card>
+                      </div>
+                      <div style={{width: "100% !important", border: "solid black"}}>
+                      <Card style={{width: "99%", textAlign: 'center', boxShadow: "0 0 .8rem grey"}}>
+                      <img
+                      style={{ height: "180px", width: "100%", display: "block"}}
+                      className={headerClass.imgCardTop}
+                      src="https://i.imgur.com/vmsnNcW.png"
+                      alt="Application Image"
+                      />
+                      <CardBody>
+                      <h1 className={headerClass.cardTitle} style={{marginBottom: "0"}}>Faithbook</h1>
+                          <h3 className={headerClass.cardSubtitle} style={{marginTop: "0"}}>Unit 2 Project</h3>
                           <div style={{display: "flex", flexFlow: "row", flexWrap: "wrap", justifyContent: "space-evenly"}}>
                           <Button color="info" href="https://github.com/Clobek/FaithBook" target="_blank" rel="noopener noreferrer">Github</Button>
                           <Button color="danger" href="https://belock.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
@@ -371,11 +426,12 @@ export default function Index (props) {
                       <img
                       style={{ height: "180px", width: "100%", display: "block"}}
                       className={headerClass.imgCardTop}
-                      src="https://i.imgur.com/yikQzBc.png"
+                      src="https://i.imgur.com/UjIhW5a.png"
                       alt="Application Image"
                       />
                       <CardBody>
-                          <h1 className={headerClass.cardTitle}>Shipperific</h1>
+                          <h1 className={headerClass.cardTitle} style={{marginBottom: "0"}}>Shipperific</h1>
+                          <h3 className={headerClass.cardSubtitle} style={{marginTop: "0"}}>Unit 3 Project</h3>
                           <div style={{display: "flex", flexFlow: "row", flexWrap: "wrap", justifyContent: "space-evenly"}}>
                           <Button color="info" href="https://github.com/Clobek/Shipperific" target="_blank" rel="noopener noreferrer">Github</Button>
                           <Button color="danger" href="https://shipperific.netlify.app/" target="_blank" rel="noopener noreferrer">Live Application!</Button>

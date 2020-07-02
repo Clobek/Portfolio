@@ -153,9 +153,10 @@ button.slick-arrow.slick-next {
   width: 15%;
   z-index: 2;
   opacity: 0.8;
+  text-shadow: 0 0 10px white;
 }
 .slick-prev {
-  left: 0;
+  left: calc(-1*(1vh + 1vw));
   &::before {
     content: "\f053";
     font-weight: 600;
@@ -173,7 +174,7 @@ button.slick-arrow.slick-next {
   }
 }
 .slick-next {
-  right: 0;
+  right: calc(-1*(1vh + 1vw));
   &::before {
     content: "\f054";
     font-weight: 600;

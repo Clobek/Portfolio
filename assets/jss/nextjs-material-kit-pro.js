@@ -354,7 +354,9 @@ const cardLink = {
 
 const cardSubtitle = {
   marginBottom: "0",
-  marginTop: "-.375rem"
+  marginTop: "-.375rem",
+  marginLeft: "0 !important",
+  marginRight: "0 !important"
 };
 
 const main = {
