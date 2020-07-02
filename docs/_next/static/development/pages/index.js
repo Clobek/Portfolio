@@ -39390,11 +39390,20 @@ function Index(props) {
       lineNumber: 58,
       columnNumber: 7
     }
-  }), __jsx("title", {
+  }), __jsx("link", {
+    href: "https://fonts.googleapis.com/css2?family=Montserrat&display=swap",
+    rel: "stylesheet",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 59,
+      columnNumber: 7
+    }
+  }), __jsx("title", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60,
       columnNumber: 7
     }
   }, "Bryce Belock Portfolio")), __jsx("div", {
@@ -39409,7 +39418,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 62,
       columnNumber: 11
     }
   }, __jsx(components_Header_Header_js__WEBPACK_IMPORTED_MODULE_17__["default"], {
@@ -39419,19 +39428,22 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 65,
+        lineNumber: 66,
         columnNumber: 15
       }
     }, __jsx("div", {
       className: headerClass.mrAuto,
       style: {
         fontSize: "4rem",
-        textAlign: "center"
+        textAlign: "center",
+        fontFamily: "'Montserrat', sans-serif",
+        textShadow: "0 0 10px grey",
+        letterSpacing: "1px"
       },
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 66,
+        lineNumber: 67,
         columnNumber: 15
       }
     }, "Bryce Belock"), __jsx(_material_ui_core_List__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -39439,7 +39451,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 67,
+        lineNumber: 68,
         columnNumber: 15
       }
     }, __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_13__["default"], {
@@ -39447,7 +39459,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 68,
+        lineNumber: 69,
         columnNumber: 17
       }
     }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -39457,7 +39469,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 69,
+        lineNumber: 70,
         columnNumber: 19
       }
     }, __jsx("h2", {
@@ -39467,7 +39479,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 74,
+        lineNumber: 75,
         columnNumber: 21
       }
     }, "About"))), __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_13__["default"], {
@@ -39475,7 +39487,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 77,
+        lineNumber: 78,
         columnNumber: 17
       }
     }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -39485,7 +39497,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 78,
+        lineNumber: 79,
         columnNumber: 19
       }
     }, __jsx("h2", {
@@ -39495,7 +39507,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 83,
+        lineNumber: 84,
         columnNumber: 21
       }
     }, "Skills"))), __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_13__["default"], {
@@ -39503,7 +39515,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 86,
+        lineNumber: 87,
         columnNumber: 17
       }
     }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -39513,7 +39525,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 87,
+        lineNumber: 88,
         columnNumber: 19
       }
     }, __jsx("h2", {
@@ -39523,7 +39535,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 92,
+        lineNumber: 93,
         columnNumber: 21
       }
     }, "Projects"))), __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_13__["default"], {
@@ -39531,7 +39543,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 95,
+        lineNumber: 96,
         columnNumber: 17
       }
     }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -39541,7 +39553,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 96,
+        lineNumber: 97,
         columnNumber: 19
       }
     }, __jsx("h2", {
@@ -39551,14 +39563,14 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 101,
+        lineNumber: 102,
         columnNumber: 21
       }
     }, "Links"))))),
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 63,
       columnNumber: 13
     }
   })), __jsx("div", {
@@ -39573,7 +39585,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108,
+      lineNumber: 109,
       columnNumber: 13
     }
   }), __jsx("h1", {
@@ -39585,12 +39597,15 @@ function Index(props) {
       fontSize: "3.5rem",
       marginBottom: "0",
       color: "black",
-      paddingTop: "30px"
+      paddingTop: "30px",
+      fontFamily: "'Montserrat', sans-serif",
+      textShadow: "0 0 10px grey",
+      letterSpacing: "1px"
     },
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109,
+      lineNumber: 110,
       columnNumber: 13
     }
   }, "Software Engineer"), __jsx("div", {
@@ -39604,11 +39619,11 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110,
+      lineNumber: 111,
       columnNumber: 13
     }
   }), __jsx("div", {
-    style: {
+    style: Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])({
       color: "black",
       textAlign: "center",
       fontSize: "calc(1vw + 2.5vh)",
@@ -39616,12 +39631,13 @@ function Index(props) {
       letterSpacing: "1.1px",
       textShadow: "0 0 8px white",
       marginLeft: "10px",
-      marginRight: "10px"
-    },
+      marginRight: "10px",
+      fontFamily: "'Montserrat', sans-serif"
+    }, "textShadow", "0 0 10px grey"),
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111,
+      lineNumber: 112,
       columnNumber: 13
     }
   }, "Growing up I wanted to be a game developer; that eventually evolved into an aspiring computer engineer. From an early age I have had a passion for all things computer related. Writing code has caused both frustration and at the same time some of my greatest feelings of accomplishment. The challenge drives me to continue learning every day. I enjoy the creative outlet coding offers me and I look forward to creating applications that both impress but more importantly serve a purpose."), __jsx("div", {
@@ -39636,7 +39652,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113,
+      lineNumber: 114,
       columnNumber: 13
     }
   }), __jsx("div", {
@@ -39647,7 +39663,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114,
+      lineNumber: 115,
       columnNumber: 13
     }
   }, __jsx("h1", {
@@ -39658,12 +39674,16 @@ function Index(props) {
       fontSize: "3.5rem",
       marginBottom: "0",
       color: "ghostwhite",
-      paddingTop: "30px"
+      paddingTop: "60px",
+      paddingBottom: "20px",
+      fontFamily: "'Montserrat', sans-serif",
+      textShadow: "0 0 10px grey",
+      letterSpacing: "1px"
     },
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115,
+      lineNumber: 116,
       columnNumber: 13
     }
   }, "Skills"), __jsx(components_NavPills_NavPills_js__WEBPACK_IMPORTED_MODULE_15__["default"], {
@@ -39678,19 +39698,21 @@ function Index(props) {
           fontSize: "calc(1vw + 2.5vh)",
           paddingBottom: "20px",
           letterSpacing: "1.1px",
-          paddingTop: "30px"
+          paddingTop: "30px",
+          fontFamily: "'Montserrat', sans-serif",
+          textShadow: "0 0 10px grey"
         },
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 123,
+          lineNumber: 124,
           columnNumber: 21
         }
       }, __jsx("p", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 124,
+          lineNumber: 125,
           columnNumber: 24
         }
       }, "Beginning my coding journey in 2020, I have been able to learn many skills in a short period of time. Through a coding bootcamp, I have spent four months studying and practicing full time between twelve to fourteen hours a day. Eight hours of class with consistent four or more hours of assignments each night has given me the ability to learn the skills neccessary to create fantastic, functional applications. The scores I am giving myself is how comfortable I feel whether it be conceptually or practically. 1 being uncomfortable and 10 being very comfortable."))
@@ -39701,19 +39723,21 @@ function Index(props) {
           color: "white",
           textAlign: "center",
           fontSize: "1.3rem",
-          paddingBottom: "20px"
+          paddingBottom: "20px",
+          fontFamily: "'Montserrat', sans-serif",
+          textShadow: "0 0 10px grey"
         },
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 131,
+          lineNumber: 132,
           columnNumber: 21
         }
       }, __jsx("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 132,
+          lineNumber: 133,
           columnNumber: 23
         }
       }, "JavaScript", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
@@ -39723,21 +39747,21 @@ function Index(props) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 134,
+          lineNumber: 135,
           columnNumber: 23
         }
       }), "7.5/10"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 141,
+          lineNumber: 142,
           columnNumber: 23
         }
       }), __jsx("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 142,
+          lineNumber: 143,
           columnNumber: 23
         }
       }, "HTML", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
@@ -39747,21 +39771,21 @@ function Index(props) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 144,
+          lineNumber: 145,
           columnNumber: 23
         }
       }), "7/10"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 151,
+          lineNumber: 152,
           columnNumber: 23
         }
       }), __jsx("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 152,
+          lineNumber: 153,
           columnNumber: 23
         }
       }, "CSS", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
@@ -39771,21 +39795,21 @@ function Index(props) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 154,
+          lineNumber: 155,
           columnNumber: 23
         }
       }), "7/10"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 161,
+          lineNumber: 162,
           columnNumber: 23
         }
       }), __jsx("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 162,
+          lineNumber: 163,
           columnNumber: 23
         }
       }, "SCSS", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
@@ -39795,21 +39819,21 @@ function Index(props) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 164,
+          lineNumber: 165,
           columnNumber: 23
         }
       }), "8/10"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 171,
+          lineNumber: 172,
           columnNumber: 23
         }
       }), __jsx("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 172,
+          lineNumber: 173,
           columnNumber: 23
         }
       }, "React", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
@@ -39819,21 +39843,21 @@ function Index(props) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 174,
+          lineNumber: 175,
           columnNumber: 23
         }
       }), "6/10"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 181,
+          lineNumber: 182,
           columnNumber: 23
         }
       }), __jsx("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 182,
+          lineNumber: 183,
           columnNumber: 23
         }
       }, "jQuery / Dom Manipulation", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
@@ -39843,7 +39867,7 @@ function Index(props) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 184,
+          lineNumber: 185,
           columnNumber: 23
         }
       }), "7/10"))
@@ -39855,19 +39879,21 @@ function Index(props) {
           textAlign: "center",
           fontSize: "1.3rem",
           paddingBottom: "20px",
-          margin: "auto"
+          margin: "auto",
+          fontFamily: "'Montserrat', sans-serif",
+          textShadow: "0 0 10px grey"
         },
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 197,
+          lineNumber: 198,
           columnNumber: 21
         }
       }, __jsx("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 198,
+          lineNumber: 199,
           columnNumber: 23
         }
       }, "Python", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
@@ -39877,21 +39903,21 @@ function Index(props) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 200,
+          lineNumber: 201,
           columnNumber: 23
         }
       }), "6.5/10"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 207,
+          lineNumber: 208,
           columnNumber: 23
         }
       }), __jsx("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 208,
+          lineNumber: 209,
           columnNumber: 23
         }
       }, "MongoDB", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
@@ -39901,21 +39927,21 @@ function Index(props) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 210,
+          lineNumber: 211,
           columnNumber: 23
         }
       }), "7/10"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 217,
+          lineNumber: 218,
           columnNumber: 23
         }
       }), __jsx("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 218,
+          lineNumber: 219,
           columnNumber: 23
         }
       }, "PostgreSQL", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
@@ -39925,21 +39951,21 @@ function Index(props) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 220,
+          lineNumber: 221,
           columnNumber: 23
         }
       }), "6/10"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 227,
+          lineNumber: 228,
           columnNumber: 23
         }
       }), __jsx("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 228,
+          lineNumber: 229,
           columnNumber: 23
         }
       }, "NodeJS", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
@@ -39949,21 +39975,21 @@ function Index(props) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 230,
+          lineNumber: 231,
           columnNumber: 23
         }
       }), "6.5/10"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 237,
+          lineNumber: 238,
           columnNumber: 23
         }
       }), __jsx("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 238,
+          lineNumber: 239,
           columnNumber: 23
         }
       }, "Django", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
@@ -39973,21 +39999,21 @@ function Index(props) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 240,
+          lineNumber: 241,
           columnNumber: 23
         }
       }), "6/10"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 247,
+          lineNumber: 248,
           columnNumber: 23
         }
       }), __jsx("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 248,
+          lineNumber: 249,
           columnNumber: 23
         }
       }, "Virtual Private Server", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
@@ -39997,7 +40023,7 @@ function Index(props) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 250,
+          lineNumber: 251,
           columnNumber: 23
         }
       }), "6.5/10"))
@@ -40008,19 +40034,21 @@ function Index(props) {
           color: "white",
           textAlign: "center",
           fontSize: "1.3rem",
-          paddingBottom: "20px"
+          paddingBottom: "20px",
+          fontFamily: "'Montserrat', sans-serif",
+          textShadow: "0 0 10px grey"
         },
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 263,
+          lineNumber: 264,
           columnNumber: 21
         }
       }, __jsx("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 264,
+          lineNumber: 265,
           columnNumber: 23
         }
       }, "GitHub", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
@@ -40030,21 +40058,21 @@ function Index(props) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 266,
+          lineNumber: 267,
           columnNumber: 23
         }
       }), "7/10"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 273,
+          lineNumber: 274,
           columnNumber: 23
         }
       }), __jsx("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 274,
+          lineNumber: 275,
           columnNumber: 23
         }
       }, "GIMP", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
@@ -40054,21 +40082,21 @@ function Index(props) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 276,
+          lineNumber: 277,
           columnNumber: 23
         }
       }), "5/10"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 283,
+          lineNumber: 284,
           columnNumber: 23
         }
       }), __jsx("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 284,
+          lineNumber: 285,
           columnNumber: 23
         }
       }, "Problem Solving", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
@@ -40078,21 +40106,21 @@ function Index(props) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 286,
+          lineNumber: 287,
           columnNumber: 23
         }
       }), "7/10"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 293,
+          lineNumber: 294,
           columnNumber: 23
         }
       }), __jsx("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 294,
+          lineNumber: 295,
           columnNumber: 23
         }
       }, "Creativity", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
@@ -40102,21 +40130,21 @@ function Index(props) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 296,
+          lineNumber: 297,
           columnNumber: 23
         }
       }), "8/10"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 303,
+          lineNumber: 304,
           columnNumber: 23
         }
       }), __jsx("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 304,
+          lineNumber: 305,
           columnNumber: 23
         }
       }, "Communication", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
@@ -40126,21 +40154,21 @@ function Index(props) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 306,
+          lineNumber: 307,
           columnNumber: 23
         }
       }), "8/10"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 313,
+          lineNumber: 314,
           columnNumber: 23
         }
       }), __jsx("div", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 314,
+          lineNumber: 315,
           columnNumber: 23
         }
       }, "Teamwork", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
@@ -40150,7 +40178,7 @@ function Index(props) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 316,
+          lineNumber: 317,
           columnNumber: 23
         }
       }), "7/10"))
@@ -40158,7 +40186,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116,
+      lineNumber: 117,
       columnNumber: 13
     }
   })), __jsx("div", {
@@ -40173,7 +40201,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 329,
+      lineNumber: 330,
       columnNumber: 13
     }
   }), __jsx("h1", {
@@ -40182,12 +40210,15 @@ function Index(props) {
       display: "flex",
       justifyContent: "center",
       fontSize: "3.5rem",
-      marginBottom: "0"
+      marginBottom: "0",
+      fontFamily: "'Montserrat', sans-serif",
+      textShadow: "0 0 10px grey",
+      letterSpacing: "1px"
     },
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 330,
+      lineNumber: 331,
       columnNumber: 13
     }
   }, "Projects"), __jsx("div", {
@@ -40198,12 +40229,13 @@ function Index(props) {
       display: "flex",
       justifyContent: "center",
       margin: "0",
-      padding: "0"
+      padding: "0",
+      paddingBottom: "20px"
     },
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 331,
+      lineNumber: 332,
       columnNumber: 13
     }
   }, __jsx("div", {
@@ -40211,14 +40243,14 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 332,
+      lineNumber: 333,
       columnNumber: 15
     }
   }, __jsx(react_slick__WEBPACK_IMPORTED_MODULE_6___default.a, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_2__["default"])({}, settings, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 333,
+      lineNumber: 334,
       columnNumber: 17
     }
   }), __jsx("div", {
@@ -40229,7 +40261,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 334,
+      lineNumber: 335,
       columnNumber: 23
     }
   }, __jsx(components_Card_Card_js__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -40241,7 +40273,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 335,
+      lineNumber: 336,
       columnNumber: 23
     }
   }, __jsx("img", {
@@ -40256,14 +40288,14 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 336,
+      lineNumber: 337,
       columnNumber: 23
     }
   }), __jsx(components_Card_CardBody_js__WEBPACK_IMPORTED_MODULE_18__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 342,
+      lineNumber: 343,
       columnNumber: 23
     }
   }, __jsx("h1", {
@@ -40274,7 +40306,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 343,
+      lineNumber: 344,
       columnNumber: 27
     }
   }, "Landscaper"), __jsx("h3", {
@@ -40285,7 +40317,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 344,
+      lineNumber: 345,
       columnNumber: 27
     }
   }, "Week 1 Assignment"), __jsx("div", {
@@ -40298,7 +40330,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 345,
+      lineNumber: 346,
       columnNumber: 27
     }
   }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -40309,7 +40341,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 346,
+      lineNumber: 347,
       columnNumber: 27
     }
   }, "Github"), __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -40320,7 +40352,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 347,
+      lineNumber: 348,
       columnNumber: 27
     }
   }, "Live Application!"))))), __jsx("div", {
@@ -40331,7 +40363,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 352,
+      lineNumber: 353,
       columnNumber: 23
     }
   }, __jsx(components_Card_Card_js__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -40343,7 +40375,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 353,
+      lineNumber: 354,
       columnNumber: 23
     }
   }, __jsx("img", {
@@ -40358,14 +40390,14 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 354,
+      lineNumber: 355,
       columnNumber: 23
     }
   }), __jsx(components_Card_CardBody_js__WEBPACK_IMPORTED_MODULE_18__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 360,
+      lineNumber: 361,
       columnNumber: 23
     }
   }, __jsx("h1", {
@@ -40376,7 +40408,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 361,
+      lineNumber: 362,
       columnNumber: 27
     }
   }, "Spacebattle"), __jsx("h3", {
@@ -40387,7 +40419,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 362,
+      lineNumber: 363,
       columnNumber: 27
     }
   }, "Week 2 Assignment"), __jsx("div", {
@@ -40400,7 +40432,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 363,
+      lineNumber: 364,
       columnNumber: 27
     }
   }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -40411,7 +40443,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 364,
+      lineNumber: 365,
       columnNumber: 27
     }
   }, "Github"), __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -40422,7 +40454,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 365,
+      lineNumber: 366,
       columnNumber: 27
     }
   }, "Live Application!"))))), __jsx("div", {
@@ -40433,7 +40465,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 370,
+      lineNumber: 371,
       columnNumber: 23
     }
   }, __jsx(components_Card_Card_js__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -40445,7 +40477,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 371,
+      lineNumber: 372,
       columnNumber: 23
     }
   }, __jsx("img", {
@@ -40460,14 +40492,14 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 372,
+      lineNumber: 373,
       columnNumber: 23
     }
   }), __jsx(components_Card_CardBody_js__WEBPACK_IMPORTED_MODULE_18__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 378,
+      lineNumber: 379,
       columnNumber: 23
     }
   }, __jsx("h1", {
@@ -40478,7 +40510,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 379,
+      lineNumber: 380,
       columnNumber: 23
     }
   }, "Bookmarkd"), __jsx("h3", {
@@ -40489,7 +40521,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 380,
+      lineNumber: 381,
       columnNumber: 23
     }
   }, "1st Team Assignment"), __jsx("div", {
@@ -40502,7 +40534,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 381,
+      lineNumber: 382,
       columnNumber: 23
     }
   }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -40513,7 +40545,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 382,
+      lineNumber: 383,
       columnNumber: 23
     }
   }, "Github"), __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -40524,7 +40556,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 383,
+      lineNumber: 384,
       columnNumber: 23
     }
   }, "Live Application!"))))), __jsx("div", {
@@ -40535,7 +40567,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 388,
+      lineNumber: 389,
       columnNumber: 23
     }
   }, __jsx(components_Card_Card_js__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -40547,7 +40579,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 389,
+      lineNumber: 390,
       columnNumber: 23
     }
   }, __jsx("img", {
@@ -40562,14 +40594,14 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 390,
+      lineNumber: 391,
       columnNumber: 23
     }
   }), __jsx(components_Card_CardBody_js__WEBPACK_IMPORTED_MODULE_18__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 396,
+      lineNumber: 397,
       columnNumber: 23
     }
   }, __jsx("h1", {
@@ -40580,7 +40612,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 397,
+      lineNumber: 398,
       columnNumber: 23
     }
   }, "hORCules"), __jsx("h3", {
@@ -40591,7 +40623,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 398,
+      lineNumber: 399,
       columnNumber: 23
     }
   }, "Unit 1 Project"), __jsx("div", {
@@ -40604,7 +40636,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 399,
+      lineNumber: 400,
       columnNumber: 23
     }
   }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -40615,7 +40647,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 400,
+      lineNumber: 401,
       columnNumber: 23
     }
   }, "Github"), __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -40626,7 +40658,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 401,
+      lineNumber: 402,
       columnNumber: 23
     }
   }, "Live Application!"))))), __jsx("div", {
@@ -40637,7 +40669,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 406,
+      lineNumber: 407,
       columnNumber: 23
     }
   }, __jsx(components_Card_Card_js__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -40649,7 +40681,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 407,
+      lineNumber: 408,
       columnNumber: 23
     }
   }, __jsx("img", {
@@ -40664,14 +40696,14 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 408,
+      lineNumber: 409,
       columnNumber: 23
     }
   }), __jsx(components_Card_CardBody_js__WEBPACK_IMPORTED_MODULE_18__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 414,
+      lineNumber: 415,
       columnNumber: 23
     }
   }, __jsx("h1", {
@@ -40682,7 +40714,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 415,
+      lineNumber: 416,
       columnNumber: 23
     }
   }, "Faithbook"), __jsx("h3", {
@@ -40693,7 +40725,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 416,
+      lineNumber: 417,
       columnNumber: 27
     }
   }, "Unit 2 Project"), __jsx("div", {
@@ -40706,7 +40738,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 417,
+      lineNumber: 418,
       columnNumber: 27
     }
   }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -40717,7 +40749,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 418,
+      lineNumber: 419,
       columnNumber: 27
     }
   }, "Github"), __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -40728,7 +40760,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 419,
+      lineNumber: 420,
       columnNumber: 27
     }
   }, "Live Application!"))))), __jsx("div", {
@@ -40739,7 +40771,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 424,
+      lineNumber: 425,
       columnNumber: 23
     }
   }, __jsx(components_Card_Card_js__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -40751,7 +40783,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 425,
+      lineNumber: 426,
       columnNumber: 23
     }
   }, __jsx("img", {
@@ -40766,14 +40798,14 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 426,
+      lineNumber: 427,
       columnNumber: 23
     }
   }), __jsx(components_Card_CardBody_js__WEBPACK_IMPORTED_MODULE_18__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 432,
+      lineNumber: 433,
       columnNumber: 23
     }
   }, __jsx("h1", {
@@ -40784,7 +40816,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 433,
+      lineNumber: 434,
       columnNumber: 27
     }
   }, "Shipperific"), __jsx("h3", {
@@ -40795,7 +40827,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 434,
+      lineNumber: 435,
       columnNumber: 27
     }
   }, "Unit 3 Project"), __jsx("div", {
@@ -40808,7 +40840,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 435,
+      lineNumber: 436,
       columnNumber: 27
     }
   }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -40819,7 +40851,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 436,
+      lineNumber: 437,
       columnNumber: 27
     }
   }, "Github"), __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -40830,7 +40862,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 437,
+      lineNumber: 438,
       columnNumber: 27
     }
   }, "Live Application!")))))))), __jsx("div", {
@@ -40845,7 +40877,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 445,
+      lineNumber: 446,
       columnNumber: 13
     }
   }), __jsx(components_Footer_Footer_js__WEBPACK_IMPORTED_MODULE_20__["default"], {
@@ -40860,7 +40892,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 449,
+        lineNumber: 450,
         columnNumber: 13
       }
     }, __jsx("div", {
@@ -40868,7 +40900,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 450,
+        lineNumber: 451,
         columnNumber: 15
       }
     }, __jsx(_material_ui_core_List__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -40876,7 +40908,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 451,
+        lineNumber: 452,
         columnNumber: 17
       }
     }, __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_13__["default"], {
@@ -40884,7 +40916,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 452,
+        lineNumber: 453,
         columnNumber: 17
       }
     }, __jsx("a", (_jsx = {
@@ -40900,7 +40932,7 @@ function Index(props) {
       fontSize: "1rem"
     }), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "__self", this), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "__source", {
       fileName: _jsxFileName,
-      lineNumber: 453,
+      lineNumber: 454,
       columnNumber: 21
     }), _jsx), "Website Technologies"), __jsx(_material_ui_core_Dialog__WEBPACK_IMPORTED_MODULE_9__["default"], {
       modalclass: {
@@ -40918,7 +40950,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 461,
+        lineNumber: 462,
         columnNumber: 21
       }
     }, __jsx(_material_ui_core_DialogTitle__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -40928,7 +40960,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 473,
+        lineNumber: 474,
         columnNumber: 21
       }
     }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -40942,7 +40974,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 478,
+        lineNumber: 479,
         columnNumber: 23
       }
     }, " ", __jsx(_material_ui_icons_Close__WEBPACK_IMPORTED_MODULE_16___default.a, {
@@ -40950,55 +40982,61 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 486,
+        lineNumber: 487,
         columnNumber: 25
       }
     })), __jsx("h1", {
       className: modalclass.modalTitle,
+      style: {
+        fontFamily: "'Montserrat', sans-serif",
+        letterSpacing: "1px"
+      },
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 488,
+        lineNumber: 489,
         columnNumber: 23
       }
     }, "Technologies Used")), __jsx(_material_ui_core_DialogContent__WEBPACK_IMPORTED_MODULE_11__["default"], {
       id: "classic-modal-slide-description",
       className: modalclass.modalBody,
       style: {
-        paddingTop: "0"
+        paddingTop: "0",
+        fontFamily: "'Montserrat', sans-serif",
+        letterSpacing: "1px"
       },
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 490,
+        lineNumber: 491,
         columnNumber: 21
       }
     }, __jsx("h2", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 495,
+        lineNumber: 496,
         columnNumber: 23
       }
     }, "Front-End"), __jsx("p", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 496,
+        lineNumber: 497,
         columnNumber: 23
       }
     }, "The front-end is written in JavaScript with NextJS as the framework. I'm making use of a UI Kit called NextJS Material Kit which is based on Material-UI, as well as some React inline styling."), __jsx("h2", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 497,
+        lineNumber: 498,
         columnNumber: 23
       }
     }, "Back-End"), __jsx("p", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 498,
+        lineNumber: 499,
         columnNumber: 23
       }
     }, "Originally written in Python using Django as the framework for managing the routes and storing the data in PostgeSQL. Once running on a linux based VPS through DigitalOcean, all data is now hardcoded for efficiency due to the scale and needs of my porfolio.")))), __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_13__["default"], {
@@ -41006,7 +41044,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 502,
+        lineNumber: 503,
         columnNumber: 19
       }
     }, __jsx("a", (_jsx2 = {
@@ -41022,7 +41060,7 @@ function Index(props) {
       fontSize: "1rem"
     }), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx2, "__self", this), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx2, "__source", {
       fileName: _jsxFileName,
-      lineNumber: 503,
+      lineNumber: 504,
       columnNumber: 21
     }), _jsx2), "Contact Information"), __jsx(_material_ui_core_Dialog__WEBPACK_IMPORTED_MODULE_9__["default"], {
       modalclass: {
@@ -41040,7 +41078,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 511,
+        lineNumber: 512,
         columnNumber: 21
       }
     }, __jsx(_material_ui_core_DialogTitle__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -41050,7 +41088,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 523,
+        lineNumber: 524,
         columnNumber: 21
       }
     }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -41064,7 +41102,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 528,
+        lineNumber: 529,
         columnNumber: 23
       }
     }, " ", __jsx(_material_ui_icons_Close__WEBPACK_IMPORTED_MODULE_16___default.a, {
@@ -41072,48 +41110,54 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 536,
+        lineNumber: 537,
         columnNumber: 25
       }
     })), __jsx("h1", {
       className: modalclass.modalTitle,
+      style: {
+        fontFamily: "'Montserrat', sans-serif",
+        letterSpacing: "1px"
+      },
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 538,
+        lineNumber: 539,
         columnNumber: 23
       }
     }, "Contact Information")), __jsx(_material_ui_core_DialogContent__WEBPACK_IMPORTED_MODULE_11__["default"], {
       id: "classic-modal-slide-description",
       className: modalclass.modalBody,
       style: {
-        paddingTop: "0"
+        paddingTop: "0",
+        fontFamily: "'Montserrat', sans-serif",
+        letterSpacing: "1px"
       },
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 540,
+        lineNumber: 541,
         columnNumber: 21
       }
     }, __jsx("h2", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 545,
+        lineNumber: 546,
         columnNumber: 23
       }
     }, "Location: Bettendorf, Iowa"), __jsx("h2", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 546,
+        lineNumber: 547,
         columnNumber: 23
       }
     }, "Phone: (563)320-4663"), __jsx("h2", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 547,
+        lineNumber: 548,
         columnNumber: 23
       }
     }, "Email: bryce@belock.dev"), __jsx("p", {
@@ -41123,7 +41167,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 548,
+        lineNumber: 549,
         columnNumber: 23
       }
     }, "* I tend to not answer calls from numbers I do not know. Send a text or make sure to leave a message.")))))), __jsx("div", {
@@ -41131,21 +41175,21 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 554,
+        lineNumber: 555,
         columnNumber: 15
       }
     }, __jsx("ul", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 555,
+        lineNumber: 556,
         columnNumber: 17
       }
     }, __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 556,
+        lineNumber: 557,
         columnNumber: 19
       }
     }, __jsx("a", {
@@ -41155,7 +41199,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 557,
+        lineNumber: 558,
         columnNumber: 21
       }
     }, __jsx("i", {
@@ -41167,14 +41211,14 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 558,
+        lineNumber: 559,
         columnNumber: 23
       }
     }))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 571,
+        lineNumber: 572,
         columnNumber: 19
       }
     }, __jsx("a", {
@@ -41184,7 +41228,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 572,
+        lineNumber: 573,
         columnNumber: 21
       }
     }, __jsx("i", {
@@ -41196,14 +41240,14 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 573,
+        lineNumber: 574,
         columnNumber: 23
       }
     }))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 586,
+        lineNumber: 587,
         columnNumber: 19
       }
     }, __jsx("a", {
@@ -41213,7 +41257,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 587,
+        lineNumber: 588,
         columnNumber: 21
       }
     }, __jsx("i", {
@@ -41225,14 +41269,14 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 588,
+        lineNumber: 589,
         columnNumber: 23
       }
     })))))),
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 446,
+      lineNumber: 447,
       columnNumber: 13
     }
   }), __jsx("script", {
@@ -41241,7 +41285,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 606,
+      lineNumber: 607,
       columnNumber: 9
     }
   }));
