@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 import fetch from 'isomorphic-unfetch';
 // react component for creating beautiful carousel
 import Carousel from "react-slick";
@@ -20,6 +21,7 @@ import CardBody from "components/Card/CardBody.js";
 import Button from "components/CustomButtons/Button.js";
 import Footer from "components/Footer/Footer.js";
 import CustomLinearProgress from "components/CustomLinearProgress/CustomLinearProgress.js";
+import CustomDropdown from "components/CustomDropdown/CustomDropdown.js";
 
 import carouselStyle from "assets/jss/nextjs-material-kit-pro/pages/componentsSections/carouselStyle.js";
 import navbarsStyle from "assets/jss/nextjs-material-kit-pro/pages/componentsSections/navbarsStyle.js";
@@ -46,12 +48,17 @@ export default function Index (props) {
     const [website, setWebsite] = React.useState(false);
     const settings = {
       infinite: true,
-      slidesToShow: 3,
+      slidesToShow: 2,
       slidesToScroll: 1,
-      speed: 500
+      speed: 500,
+      autoplay: true
     };
     return (
       <>
+      <Head>
+      <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+      <title>Bryce Belock Portfolio</title>
+      </Head>
           <div style={{position: "sticky", top: "0", zIndex: "2", borderBottom: "solid white 1px", margin: "0 !important", padding: "0 !important"}}>
             <Header
             color="dark"
@@ -61,9 +68,8 @@ export default function Index (props) {
               <List className={headerClass.list + " " + headerClass.mlAuto}>
                 <ListItem className={headerClass.listItem}>
                   <Button
-                    href="#pablo"
+                    href="#about"
                     className={headerClass.navLink}
-                    onClick={e => e.preventDefault()}
                     color="transparent"
                   >
                     <h2 style={{fontSize: "1.5rem"}}>About</h2>
@@ -71,9 +77,8 @@ export default function Index (props) {
                 </ListItem>
                 <ListItem className={headerClass.listItem}>
                   <Button
-                    href="#pablo"
+                    href="#skills"
                     className={headerClass.navLink}
-                    onClick={e => e.preventDefault()}
                     color="transparent"
                   >
                     <h2 style={{fontSize: "1.5rem"}}>Skills</h2>
@@ -81,9 +86,8 @@ export default function Index (props) {
                 </ListItem>
                 <ListItem className={headerClass.listItem}>
                   <Button
-                    href="#pablo"
+                    href="#projects"
                     className={headerClass.navLink}
-                    onClick={e => e.preventDefault()}
                     color="transparent"
                   >
                     <h2 style={{fontSize: "1.5rem"}}>Projects</h2>
@@ -91,9 +95,8 @@ export default function Index (props) {
                 </ListItem>
                 <ListItem className={headerClass.listItem}>
                   <Button
-                    href="#pablo"
+                    href="#links"
                     className={headerClass.navLink}
-                    onClick={e => e.preventDefault()}
                     color="transparent"
                   >
                     <h2 style={{fontSize: "1.5rem"}}>Links</h2>
@@ -103,8 +106,14 @@ export default function Index (props) {
               </div>
             }/>
             </div>
+            <div id="about" style={{display: "block", content: "", marginTop: "-75px", height: "75px", visibility: "hidden"}}></div>
+            <h1 style={{textAlign: "center", width: "100%", display: "flex", justifyContent: "center", fontSize: "3.5rem", marginBottom: "0", color: "black", paddingTop: "30px"}}>Software Engineer</h1>
+            <div style={{backgroundImage: "url('https://i.imgur.com/sx7WWrA.png')", backgroundSize: "cover", width: "calc(16vw + 16vh)", height:"calc(10.64vw + 10.64vh)", margin: "auto"}}></div>
+            <div style={{color: "black", textAlign: "center", fontSize: "calc(1vw + 2.5vh)", paddingBottom: "20px", letterSpacing: "1.1px", textShadow: "0 0 8px white", marginLeft: "10px", marginRight: "10px"}}>Growing up I wanted to be a game developer which evolved into wanting to become a computer engineer. From an early age I have had a passion for all things computer related. Writing code has caused both frustration and at the same time some of my greatest feelings of accomplishment. The challenge drives me to continue learning every day. I enjoy the creative outlet coding offers me and I look forward to creating applications that both impress but more importantly serve a purpose.
+            </div>
+            <div id="skills" style={{display: "block", content: "", marginTop: "-75px", height: "75px", visibility: "hidden"}}></div>
             <div style={{backgroundColor: "#212121", borderRadius: "3px"}}>
-            <h1 style={{width: "100%", display: "flex", justifyContent: "center", fontSize: "3.5rem", marginBottom: "0", color: "ghostwhite", paddingTop: "20px"}}>Skills</h1>
+            <h1 style={{width: "100%", display: "flex", justifyContent: "center", fontSize: "3.5rem", marginBottom: "0", color: "ghostwhite", paddingTop: "30px"}}>Skills</h1>
             <NavPills
               color="white"
               alignCenter
@@ -112,8 +121,8 @@ export default function Index (props) {
                 {
                   tabButton: "Overview",
                   tabContent: (
-                    <div style={{color: "white", textAlign: "center", fontSize: "calc(1vw + 2.5vh)", paddingBottom: "20px"}}>
-                       <p>Beginning my coding journey in 2020 I have been able to learn a plethora of skills in a short period of time. Through a coding bootcamp, I have spent four months studying and practicing full time between twelve to fourteen hours a day. Eight hours of class with consistent four or more hours of assignments each night has given me the ability to learn the skills neccessary to create fantastic, functional applications. The scores I am giving myself is how comfortable I feel whether it be conceptually or practically. 1 being uncomfortable and 10 being very comfortable.</p>
+                    <div style={{color: "white", textAlign: "center", fontSize: "calc(1vw + 2.5vh)", paddingBottom: "20px", letterSpacing: "1.1px", paddingTop: "30px"}}>
+                       <p>Beginning my coding journey in 2020, I have been able to learn many skills in a short period of time. Through a coding bootcamp, I have spent four months studying and practicing full time between twelve to fourteen hours a day. Eight hours of class with consistent four or more hours of assignments each night has given me the ability to learn the skills neccessary to create fantastic, functional applications. The scores I am giving myself is how comfortable I feel whether it be conceptually or practically. 1 being uncomfortable and 10 being very comfortable.</p>
                     </div>
                   )
                 },
@@ -318,7 +327,8 @@ export default function Index (props) {
               ]}
             />
             </div>
-            <h1 style={{width: "100%", display: "flex", justifyContent: "center", fontSize: "3rem", marginBottom: "0"}}>Projects</h1>             
+            <div id="projects" style={{display: "block", content: "", marginTop: "-75px", height: "75px", visibility: "hidden"}}></div>
+            <h1 style={{width: "100%", display: "flex", justifyContent: "center", fontSize: "3.5rem", marginBottom: "0"}}>Projects</h1>             
             <div className={carouselClass.section} id="carousel" style={{width: "100% !important", display: "flex", justifyContent:"center", margin: "0", padding: "0"}}>
               <div className={carouselClass.container}>
                 <Carousel {...settings}>
@@ -327,14 +337,14 @@ export default function Index (props) {
                       <img
                       style={{ height: "180px", width: "100%", display: "block"}}
                       className={headerClass.imgCardTop}
-                      src="https://i.imgur.com/RO4mQWd.png"
+                      src="https://i.imgur.com/5ZjPvuA.png"
                       alt="Application Image"
                       />
                       <CardBody>
                           <h1 className={headerClass.cardTitle}>hORCules</h1>
                           <div style={{display: "flex", flexFlow: "row", flexWrap: "wrap", justifyContent: "space-evenly"}}>
                           <Button color="info" href="https://github.com/Clobek/hORCules" target="_blank" rel="noopener noreferrer">Github</Button>
-                          <Button color="danger" href="#" target="_blank" rel="noopener noreferrer">Live Application!</Button>
+                          <Button color="danger" href="https://horcules.netlify.app/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
                           </div> 
                       </CardBody>
                       </Card>
@@ -344,7 +354,7 @@ export default function Index (props) {
                       <img
                       style={{ height: "180px", width: "100%", display: "block"}}
                       className={headerClass.imgCardTop}
-                      src="https://i.imgur.com/QOeEHjT.png"
+                      src="https://i.imgur.com/CqkP6Cn.png"
                       alt="Application Image"
                       />
                       <CardBody>
@@ -361,24 +371,7 @@ export default function Index (props) {
                       <img
                       style={{ height: "180px", width: "100%", display: "block"}}
                       className={headerClass.imgCardTop}
-                      src="https://i.imgur.com/BmsWrXT.png"
-                      alt="Application Image"
-                      />
-                      <CardBody>
-                          <h1 className={headerClass.cardTitle}>Shipperific</h1>
-                          <div style={{display: "flex", flexFlow: "row", flexWrap: "wrap", justifyContent: "space-evenly"}}>
-                          <Button color="info" href="https://github.com/Clobek/Shipperific" target="_blank" rel="noopener noreferrer">Github</Button>
-                          <Button color="danger" href="https://shipperific.netlify.app/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
-                          </div> 
-                      </CardBody>
-                      </Card>
-                      </div>
-                      <div style={{width: "100% !important", border: "solid black"}}>
-                      <Card style={{width: "99%", textAlign: 'center', boxShadow: "0 0 .8rem grey"}}>
-                      <img
-                      style={{ height: "180px", width: "100%", display: "block"}}
-                      className={headerClass.imgCardTop}
-                      src="https://i.imgur.com/BmsWrXT.png"
+                      src="https://i.imgur.com/yikQzBc.png"
                       alt="Application Image"
                       />
                       <CardBody>
@@ -393,6 +386,7 @@ export default function Index (props) {
                 </Carousel>
               </div>
             </div>
+            <div id="links" style={{display: "block", content: "", marginTop: "-75px", height: "75px", visibility: "hidden"}}></div>
             <Footer
             theme="dark"
             content={
@@ -494,7 +488,7 @@ export default function Index (props) {
                     >
                       <h2>Location: Bettendorf, Iowa</h2>
                       <h2>Phone: (563)320-4663</h2>
-                      <h2>Email: clobek@outlook.com</h2>
+                      <h2>Email: bryce@belock.dev</h2>
                       <p style={{textAlign: "center"}}>* I tend to not answer calls from numbers I do not know. Send a text or make sure to leave a message.</p>
                     </DialogContent>
                   </Dialog>
@@ -525,6 +519,21 @@ export default function Index (props) {
                         style={{fontSize: "2rem"}}
                         className={
                           "fab fa-linkedin" +
+                          " " +
+                          navClass.iconSocial +
+                          " " +
+                          navClass.btnLink
+                        }
+                      />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://medium.com/@belock" target="_blank" rel="noopener noreferrer">
+                      <i
+                        aria-hidden
+                        style={{fontSize: "2rem"}}
+                        className={
+                          "fab fa-medium" +
                           " " +
                           navClass.iconSocial +
                           " " +
