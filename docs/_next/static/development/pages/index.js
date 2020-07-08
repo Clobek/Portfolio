@@ -39767,14 +39767,14 @@ function Index(props) {
       }, "HTML", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
         variant: "determinate",
         color: "success",
-        value: 70,
+        value: 80,
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 145,
           columnNumber: 23
         }
-      }), "7/10"), __jsx("br", {
+      }), "8/10"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -39788,17 +39788,17 @@ function Index(props) {
           lineNumber: 153,
           columnNumber: 23
         }
-      }, "CSS", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
+      }, "CSS/SCSS", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
         variant: "determinate",
         color: "success",
-        value: 70,
+        value: 75,
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 155,
           columnNumber: 23
         }
-      }), "7/10"), __jsx("br", {
+      }), "7.5/10"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -39812,17 +39812,17 @@ function Index(props) {
           lineNumber: 163,
           columnNumber: 23
         }
-      }, "SCSS", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
+      }, "React", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
         variant: "determinate",
         color: "success",
-        value: 80,
+        value: 70,
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 165,
           columnNumber: 23
         }
-      }), "8/10"), __jsx("br", {
+      }), "7/10"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -39836,17 +39836,17 @@ function Index(props) {
           lineNumber: 173,
           columnNumber: 23
         }
-      }, "React", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
+      }, "jQuery / Dom Manipulation", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
         variant: "determinate",
         color: "success",
-        value: 60,
+        value: 70,
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 175,
           columnNumber: 23
         }
-      }), "6/10"), __jsx("br", {
+      }), "7/10"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -39860,17 +39860,17 @@ function Index(props) {
           lineNumber: 183,
           columnNumber: 23
         }
-      }, "jQuery / Dom Manipulation", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
+      }, "SVG", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
         variant: "determinate",
         color: "success",
-        value: 70,
+        value: 60,
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 185,
           columnNumber: 23
         }
-      }), "7/10"))
+      }), "6/10"))
     }, {
       tabButton: "Backend",
       tabContent: __jsx("div", {
@@ -39923,14 +39923,14 @@ function Index(props) {
       }, "MongoDB", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
         variant: "determinate",
         color: "success",
-        value: 70,
+        value: 80,
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 211,
           columnNumber: 23
         }
-      }), "7/10"), __jsx("br", {
+      }), "8/10"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -39971,14 +39971,14 @@ function Index(props) {
       }, "NodeJS", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
         variant: "determinate",
         color: "success",
-        value: 65,
+        value: 70,
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 231,
           columnNumber: 23
         }
-      }), "6.5/10"), __jsx("br", {
+      }), "7/10"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -39995,14 +39995,14 @@ function Index(props) {
       }, "Django", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
         variant: "determinate",
         color: "success",
-        value: 60,
+        value: 50,
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 241,
           columnNumber: 23
         }
-      }), "6/10"), __jsx("br", {
+      }), "5/10"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -40051,7 +40051,7 @@ function Index(props) {
           lineNumber: 265,
           columnNumber: 23
         }
-      }, "GitHub", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
+      }, "Git/GitHub", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
         variant: "determinate",
         color: "success",
         value: 70,
@@ -40078,14 +40078,14 @@ function Index(props) {
       }, "GIMP", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
         variant: "determinate",
         color: "success",
-        value: 50,
+        value: 60,
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 277,
           columnNumber: 23
         }
-      }), "5/10"), __jsx("br", {
+      }), "6/10"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -40099,17 +40099,17 @@ function Index(props) {
           lineNumber: 285,
           columnNumber: 23
         }
-      }, "Problem Solving", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
+      }, "Inkscape", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
         variant: "determinate",
         color: "success",
-        value: 70,
+        value: 60,
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 287,
           columnNumber: 23
         }
-      }), "7/10"), __jsx("br", {
+      }), "6/10"), __jsx("br", {
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -40123,7 +40123,7 @@ function Index(props) {
           lineNumber: 295,
           columnNumber: 23
         }
-      }, "Creativity", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
+      }, "Problem Solving", __jsx(components_CustomLinearProgress_CustomLinearProgress_js__WEBPACK_IMPORTED_MODULE_21__["default"], {
         variant: "determinate",
         color: "success",
         value: 80,
@@ -40865,6 +40865,108 @@ function Index(props) {
       lineNumber: 438,
       columnNumber: 27
     }
+  }, "Live Application!"))))), __jsx("div", {
+    style: {
+      width: "100% !important",
+      border: "solid black"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 443,
+      columnNumber: 23
+    }
+  }, __jsx(components_Card_Card_js__WEBPACK_IMPORTED_MODULE_14__["default"], {
+    style: {
+      width: "99%",
+      textAlign: 'center',
+      boxShadow: "0 0 .8rem grey"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 444,
+      columnNumber: 23
+    }
+  }, __jsx("img", {
+    style: {
+      height: "180px",
+      width: "100%",
+      display: "block"
+    },
+    className: headerClass.imgCardTop,
+    src: "https://i.imgur.com/LXpIOCf.png",
+    alt: "Application Image",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 445,
+      columnNumber: 23
+    }
+  }), __jsx(components_Card_CardBody_js__WEBPACK_IMPORTED_MODULE_18__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 451,
+      columnNumber: 23
+    }
+  }, __jsx("h1", {
+    className: headerClass.cardTitle,
+    style: {
+      marginBottom: "0"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 452,
+      columnNumber: 27
+    }
+  }, "beClock"), __jsx("h3", {
+    className: headerClass.cardSubtitle,
+    style: {
+      marginTop: "0"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 453,
+      columnNumber: 27
+    }
+  }, "Final Project"), __jsx("div", {
+    style: {
+      display: "flex",
+      flexFlow: "row",
+      flexWrap: "wrap",
+      justifyContent: "space-evenly"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 454,
+      columnNumber: 27
+    }
+  }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
+    color: "info",
+    href: "https://github.com/Clobek/beClock",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 455,
+      columnNumber: 27
+    }
+  }, "Github"), __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
+    color: "danger",
+    href: "https://beclock.netlify.app/",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 456,
+      columnNumber: 27
+    }
   }, "Live Application!")))))))), __jsx("div", {
     id: "links",
     style: {
@@ -40877,7 +40979,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 446,
+      lineNumber: 464,
       columnNumber: 13
     }
   }), __jsx(components_Footer_Footer_js__WEBPACK_IMPORTED_MODULE_20__["default"], {
@@ -40892,7 +40994,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 450,
+        lineNumber: 468,
         columnNumber: 13
       }
     }, __jsx("div", {
@@ -40900,7 +41002,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 451,
+        lineNumber: 469,
         columnNumber: 15
       }
     }, __jsx(_material_ui_core_List__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -40908,7 +41010,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 452,
+        lineNumber: 470,
         columnNumber: 17
       }
     }, __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_13__["default"], {
@@ -40916,7 +41018,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 453,
+        lineNumber: 471,
         columnNumber: 17
       }
     }, __jsx("a", (_jsx = {
@@ -40932,7 +41034,7 @@ function Index(props) {
       fontSize: "1rem"
     }), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "__self", this), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "__source", {
       fileName: _jsxFileName,
-      lineNumber: 454,
+      lineNumber: 472,
       columnNumber: 21
     }), _jsx), "Website Technologies"), __jsx(_material_ui_core_Dialog__WEBPACK_IMPORTED_MODULE_9__["default"], {
       modalclass: {
@@ -40950,7 +41052,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 462,
+        lineNumber: 480,
         columnNumber: 21
       }
     }, __jsx(_material_ui_core_DialogTitle__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -40960,7 +41062,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 474,
+        lineNumber: 492,
         columnNumber: 21
       }
     }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -40974,7 +41076,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 479,
+        lineNumber: 497,
         columnNumber: 23
       }
     }, " ", __jsx(_material_ui_icons_Close__WEBPACK_IMPORTED_MODULE_16___default.a, {
@@ -40982,7 +41084,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 487,
+        lineNumber: 505,
         columnNumber: 25
       }
     })), __jsx("h1", {
@@ -40994,7 +41096,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 489,
+        lineNumber: 507,
         columnNumber: 23
       }
     }, "Technologies Used")), __jsx(_material_ui_core_DialogContent__WEBPACK_IMPORTED_MODULE_11__["default"], {
@@ -41008,35 +41110,35 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 491,
+        lineNumber: 509,
         columnNumber: 21
       }
     }, __jsx("h2", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 496,
+        lineNumber: 514,
         columnNumber: 23
       }
     }, "Front-End"), __jsx("p", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 497,
+        lineNumber: 515,
         columnNumber: 23
       }
     }, "The front-end is written in JavaScript with NextJS as the framework. I'm making use of a UI Kit called NextJS Material Kit which is based on Material-UI, as well as some React inline styling."), __jsx("h2", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 498,
+        lineNumber: 516,
         columnNumber: 23
       }
     }, "Back-End"), __jsx("p", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 499,
+        lineNumber: 517,
         columnNumber: 23
       }
     }, "Originally written in Python using Django as the framework for managing the routes and storing the data in PostgeSQL. Once running on a linux based VPS through DigitalOcean, all data is now hardcoded for efficiency due to the scale and needs of my porfolio.")))), __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_13__["default"], {
@@ -41044,7 +41146,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 503,
+        lineNumber: 521,
         columnNumber: 19
       }
     }, __jsx("a", (_jsx2 = {
@@ -41060,7 +41162,7 @@ function Index(props) {
       fontSize: "1rem"
     }), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx2, "__self", this), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx2, "__source", {
       fileName: _jsxFileName,
-      lineNumber: 504,
+      lineNumber: 522,
       columnNumber: 21
     }), _jsx2), "Contact Information"), __jsx(_material_ui_core_Dialog__WEBPACK_IMPORTED_MODULE_9__["default"], {
       modalclass: {
@@ -41078,7 +41180,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 512,
+        lineNumber: 530,
         columnNumber: 21
       }
     }, __jsx(_material_ui_core_DialogTitle__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -41088,7 +41190,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 524,
+        lineNumber: 542,
         columnNumber: 21
       }
     }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -41102,7 +41204,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 529,
+        lineNumber: 547,
         columnNumber: 23
       }
     }, " ", __jsx(_material_ui_icons_Close__WEBPACK_IMPORTED_MODULE_16___default.a, {
@@ -41110,7 +41212,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 537,
+        lineNumber: 555,
         columnNumber: 25
       }
     })), __jsx("h1", {
@@ -41122,7 +41224,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 539,
+        lineNumber: 557,
         columnNumber: 23
       }
     }, "Contact Information")), __jsx(_material_ui_core_DialogContent__WEBPACK_IMPORTED_MODULE_11__["default"], {
@@ -41136,28 +41238,28 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 541,
+        lineNumber: 559,
         columnNumber: 21
       }
     }, __jsx("h2", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 546,
+        lineNumber: 564,
         columnNumber: 23
       }
     }, "Location: Bettendorf, Iowa"), __jsx("h2", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 547,
+        lineNumber: 565,
         columnNumber: 23
       }
     }, "Phone: (563)320-4663"), __jsx("h2", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 548,
+        lineNumber: 566,
         columnNumber: 23
       }
     }, "Email: bryce@belock.dev"), __jsx("p", {
@@ -41167,7 +41269,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 549,
+        lineNumber: 567,
         columnNumber: 23
       }
     }, "* I tend to not answer calls from numbers I do not know. Send a text or make sure to leave a message.")))))), __jsx("div", {
@@ -41175,21 +41277,21 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 555,
+        lineNumber: 573,
         columnNumber: 15
       }
     }, __jsx("ul", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 556,
+        lineNumber: 574,
         columnNumber: 17
       }
     }, __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 557,
+        lineNumber: 575,
         columnNumber: 19
       }
     }, __jsx("a", {
@@ -41199,7 +41301,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 558,
+        lineNumber: 576,
         columnNumber: 21
       }
     }, __jsx("i", {
@@ -41211,14 +41313,14 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 559,
+        lineNumber: 577,
         columnNumber: 23
       }
     }))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 572,
+        lineNumber: 590,
         columnNumber: 19
       }
     }, __jsx("a", {
@@ -41228,7 +41330,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 573,
+        lineNumber: 591,
         columnNumber: 21
       }
     }, __jsx("i", {
@@ -41240,14 +41342,14 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 574,
+        lineNumber: 592,
         columnNumber: 23
       }
     }))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 587,
+        lineNumber: 605,
         columnNumber: 19
       }
     }, __jsx("a", {
@@ -41257,7 +41359,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 588,
+        lineNumber: 606,
         columnNumber: 21
       }
     }, __jsx("i", {
@@ -41269,14 +41371,14 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 589,
+        lineNumber: 607,
         columnNumber: 23
       }
     })))))),
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 447,
+      lineNumber: 465,
       columnNumber: 13
     }
   }), __jsx("script", {
@@ -41285,7 +41387,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 607,
+      lineNumber: 625,
       columnNumber: 9
     }
   }));
