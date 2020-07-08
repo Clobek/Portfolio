@@ -145,29 +145,19 @@ export default function Index (props) {
                       <CustomLinearProgress
                         variant="determinate"
                         color="success"
-                        value={70}
-                      />
-                      7/10
-                      </div>
-                      <br/>
-                      <div>
-                        CSS
-                      <CustomLinearProgress
-                        variant="determinate"
-                        color="success"
-                        value={70}
-                      />
-                      7/10
-                      </div>
-                      <br/>
-                      <div>
-                        SCSS
-                      <CustomLinearProgress
-                        variant="determinate"
-                        color="success"
                         value={80}
                       />
                       8/10
+                      </div>
+                      <br/>
+                      <div>
+                        CSS/SCSS
+                      <CustomLinearProgress
+                        variant="determinate"
+                        color="success"
+                        value={75}
+                      />
+                      7.5/10
                       </div>
                       <br/>
                       <div>
@@ -175,9 +165,9 @@ export default function Index (props) {
                       <CustomLinearProgress
                         variant="determinate"
                         color="success"
-                        value={60}
+                        value={70}
                       />
-                      6/10
+                      7/10
                       </div>
                       <br/>
                       <div>
@@ -188,6 +178,16 @@ export default function Index (props) {
                         value={70}
                       />
                       7/10
+                      </div>
+                      <br/>
+                      <div>
+                        SVG
+                      <CustomLinearProgress
+                        variant="determinate"
+                        color="success"
+                        value={60}
+                      />
+                      6/10
                       </div>
                     </div>
                   )
@@ -211,9 +211,9 @@ export default function Index (props) {
                       <CustomLinearProgress
                         variant="determinate"
                         color="success"
-                        value={70}
+                        value={80}
                       />
-                      7/10
+                      8/10
                       </div>
                       <br/>
                       <div>
@@ -231,9 +231,9 @@ export default function Index (props) {
                       <CustomLinearProgress
                         variant="determinate"
                         color="success"
-                        value={65}
+                        value={70}
                       />
-                      6.5/10
+                      7/10
                       </div>
                       <br/>
                       <div>
@@ -241,9 +241,9 @@ export default function Index (props) {
                       <CustomLinearProgress
                         variant="determinate"
                         color="success"
-                        value={60}
+                        value={50}
                       />
-                      6/10
+                      5/10
                       </div>
                       <br/>
                       <div>
@@ -263,7 +263,7 @@ export default function Index (props) {
                   tabContent: (
                     <div style={{color: "white", textAlign: "center", fontSize: "1.3rem", paddingBottom: "20px", fontFamily: "'Montserrat', sans-serif", textShadow: "0 0 10px grey"}}>
                       <div>
-                        GitHub
+                        Git/GitHub
                       <CustomLinearProgress
                         variant="determinate"
                         color="success"
@@ -277,23 +277,23 @@ export default function Index (props) {
                       <CustomLinearProgress
                         variant="determinate"
                         color="success"
-                        value={50}
+                        value={60}
                       />
-                      5/10
+                      6/10
+                      </div>
+                      <br/>
+                      <div>
+                        Inkscape
+                      <CustomLinearProgress
+                        variant="determinate"
+                        color="success"
+                        value={60}
+                      />
+                      6/10
                       </div>
                       <br/>
                       <div>
                         Problem Solving
-                      <CustomLinearProgress
-                        variant="determinate"
-                        color="success"
-                        value={70}
-                      />
-                      7/10
-                      </div>
-                      <br/>
-                      <div>
-                        Creativity
                       <CustomLinearProgress
                         variant="determinate"
                         color="success"
@@ -436,6 +436,24 @@ export default function Index (props) {
                           <div style={{display: "flex", flexFlow: "row", flexWrap: "wrap", justifyContent: "space-evenly"}}>
                           <Button color="info" href="https://github.com/Clobek/Shipperific" target="_blank" rel="noopener noreferrer">Github</Button>
                           <Button color="danger" href="https://shipperific.netlify.app/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
+                          </div> 
+                      </CardBody>
+                      </Card>
+                      </div>
+                      <div style={{width: "100% !important", border: "solid black"}}>
+                      <Card style={{width: "99%", textAlign: 'center', boxShadow: "0 0 .8rem grey"}}>
+                      <img
+                      style={{ height: "180px", width: "100%", display: "block"}}
+                      className={headerClass.imgCardTop}
+                      src="https://i.imgur.com/LXpIOCf.png"
+                      alt="Application Image"
+                      />
+                      <CardBody>
+                          <h1 className={headerClass.cardTitle} style={{marginBottom: "0"}}>beClock</h1>
+                          <h3 className={headerClass.cardSubtitle} style={{marginTop: "0"}}>Final Project</h3>
+                          <div style={{display: "flex", flexFlow: "row", flexWrap: "wrap", justifyContent: "space-evenly"}}>
+                          <Button color="info" href="https://github.com/Clobek/beClock" target="_blank" rel="noopener noreferrer">Github</Button>
+                          <Button color="danger" href="https://beclock.netlify.app/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
                           </div> 
                       </CardBody>
                       </Card>
