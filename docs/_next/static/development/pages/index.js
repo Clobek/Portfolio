@@ -39630,8 +39630,7 @@ function Index(props) {
       paddingBottom: "20px",
       letterSpacing: "1.1px",
       textShadow: "0 0 8px white",
-      marginLeft: "10px",
-      marginRight: "10px",
+      margin: "0 5%",
       fontFamily: "'Montserrat', sans-serif"
     }, "textShadow", "0 0 10px grey"),
     __self: this,
@@ -39709,6 +39708,9 @@ function Index(props) {
           columnNumber: 21
         }
       }, __jsx("p", {
+        style: {
+          margin: "0 5%"
+        },
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -41141,7 +41143,7 @@ function Index(props) {
         lineNumber: 517,
         columnNumber: 23
       }
-    }, "Originally written in Python using Django as the framework for managing the routes and storing the data in PostgeSQL. Once running on a linux based VPS through DigitalOcean, all data is now hardcoded for efficiency due to the scale and needs of my porfolio.")))), __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_13__["default"], {
+    }, "Originally written in Python using Django as the framework for managing the routes and storing the data in PostgreSQL. Once running on a linux based VPS through DigitalOcean, all data is now hardcoded for efficiency due to the scale and needs of my porfolio.")))), __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_13__["default"], {
       className: navClass.inlineBlock,
       __self: this,
       __source: {
@@ -41407,7 +41409,7 @@ function Index(props) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!***********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fbryce%2FDesktop%2FPortfolio%2Fpages%2Findex.js&hotRouterUpdates=true ***!
   \***********************************************************************************************************************************************/
@@ -41430,5 +41432,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
