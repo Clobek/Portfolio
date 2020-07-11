@@ -109,7 +109,7 @@ export default function Index (props) {
             <div id="about" style={{display: "block", content: "", marginTop: "-75px", height: "75px", visibility: "hidden"}}></div>
             <h1 style={{textAlign: "center", width: "100%", display: "flex", justifyContent: "center", fontSize: "3.5rem", marginBottom: "0", color: "black", paddingTop: "30px", fontFamily: "'Montserrat', sans-serif", textShadow: "0 0 10px grey", letterSpacing: "1px"}}>Software Engineer</h1>
             <div style={{backgroundImage: "url('https://i.imgur.com/sx7WWrA.png')", backgroundSize: "cover", width: "calc(16vw + 16vh)", height:"calc(10.64vw + 10.64vh)", margin: "auto"}}></div>
-            <div style={{color: "black", textAlign: "center", fontSize: "calc(1vw + 2.5vh)", paddingBottom: "20px", letterSpacing: "1.1px", textShadow: "0 0 8px white", marginLeft: "10px", marginRight: "10px", fontFamily: "'Montserrat', sans-serif", textShadow: "0 0 10px grey"}}>Growing up I wanted to be a game developer; that eventually evolved into an aspiring computer engineer. From an early age I have had a passion for all things computer related. Writing code has caused both frustration and at the same time some of my greatest feelings of accomplishment. The challenge drives me to continue learning every day. I enjoy the creative outlet coding offers me and I look forward to creating applications that both impress but more importantly serve a purpose.
+            <div style={{color: "black", textAlign: "center", fontSize: "calc(1vw + 2.5vh)", paddingBottom: "20px", letterSpacing: "1.1px", textShadow: "0 0 8px white", margin: "0 5%", fontFamily: "'Montserrat', sans-serif", textShadow: "0 0 10px grey"}}>Growing up I wanted to be a game developer; that eventually evolved into an aspiring computer engineer. From an early age I have had a passion for all things computer related. Writing code has caused both frustration and at the same time some of my greatest feelings of accomplishment. The challenge drives me to continue learning every day. I enjoy the creative outlet coding offers me and I look forward to creating applications that both impress but more importantly serve a purpose.
             </div>
             <div id="skills" style={{display: "block", content: "", marginTop: "-75px", height: "75px", visibility: "hidden"}}></div>
             <div style={{backgroundColor: "#212121", borderRadius: "3px"}}>
@@ -122,7 +122,7 @@ export default function Index (props) {
                   tabButton: "Overview",
                   tabContent: (
                     <div style={{color: "white", textAlign: "center", fontSize: "calc(1vw + 2.5vh)", paddingBottom: "20px", letterSpacing: "1.1px", paddingTop: "30px", fontFamily: "'Montserrat', sans-serif", textShadow: "0 0 10px grey"}}>
-                       <p>Beginning my coding journey in 2020, I have been able to learn many skills in a short period of time. Through a coding bootcamp, I have spent four months studying and practicing full time between twelve to fourteen hours a day. Eight hours of class with consistent four or more hours of assignments each night has given me the ability to learn the skills neccessary to create fantastic, functional applications. The scores I am giving myself is how comfortable I feel whether it be conceptually or practically. 1 being uncomfortable and 10 being very comfortable.</p>
+                       <p style={{margin: "0 5%"}}>Beginning my coding journey in 2020, I have been able to learn many skills in a short period of time. Through a coding bootcamp, I have spent four months studying and practicing full time between twelve to fourteen hours a day. Eight hours of class with consistent four or more hours of assignments each night has given me the ability to learn the skills neccessary to create fantastic, functional applications. The scores I am giving myself is how comfortable I feel whether it be conceptually or practically. 1 being uncomfortable and 10 being very comfortable.</p>
                     </div>
                   )
                 },
@@ -514,7 +514,7 @@ export default function Index (props) {
                       <h2>Front-End</h2>
                       <p>The front-end is written in JavaScript with NextJS as the framework. I'm making use of a UI Kit called NextJS Material Kit which is based on Material-UI, as well as some React inline styling.</p>
                       <h2>Back-End</h2>
-                      <p>Originally written in Python using Django as the framework for managing the routes and storing the data in PostgeSQL. Once running on a linux based VPS through DigitalOcean, all data is now hardcoded for efficiency due to the scale and needs of my porfolio.</p>
+                      <p>Originally written in Python using Django as the framework for managing the routes and storing the data in PostgreSQL. Once running on a linux based VPS through DigitalOcean, all data is now hardcoded for efficiency due to the scale and needs of my porfolio.</p>
                     </DialogContent>
                   </Dialog>
                   </ListItem>
