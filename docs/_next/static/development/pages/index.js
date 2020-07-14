@@ -40232,7 +40232,8 @@ function Index(props) {
       justifyContent: "center",
       margin: "0",
       padding: "0",
-      paddingBottom: "20px"
+      paddingBottom: "20px",
+      fontFamily: "'Montserrat', sans-serif"
     },
     __self: this,
     __source: {
@@ -40280,7 +40281,7 @@ function Index(props) {
     }
   }, __jsx("img", {
     style: {
-      height: "180px",
+      height: "260px",
       width: "100%",
       display: "block"
     },
@@ -40294,6 +40295,13 @@ function Index(props) {
       columnNumber: 23
     }
   }), __jsx(components_Card_CardBody_js__WEBPACK_IMPORTED_MODULE_18__["default"], {
+    style: {
+      height: "220px",
+      display: "flex",
+      flexFlow: "column",
+      justifyContent: "space-evenly",
+      alignItems: "center"
+    },
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -40303,7 +40311,8 @@ function Index(props) {
   }, __jsx("h1", {
     className: headerClass.cardTitle,
     style: {
-      marginBottom: "0"
+      marginBottom: "0",
+      fontSize: "clamp(2rem, 2vw, 2.5rem)"
     },
     __self: this,
     __source: {
@@ -40314,7 +40323,8 @@ function Index(props) {
   }, "Landscaper"), __jsx("h3", {
     className: headerClass.cardSubtitle,
     style: {
-      marginTop: "0"
+      marginTop: "0",
+      fontSize: "clamp(1rem, 2vw, 1.3rem"
     },
     __self: this,
     __source: {
@@ -40327,7 +40337,8 @@ function Index(props) {
       display: "flex",
       flexFlow: "row",
       flexWrap: "wrap",
-      justifyContent: "space-evenly"
+      justifyContent: "space-evenly",
+      width: "50%"
     },
     __self: this,
     __source: {
@@ -40336,6 +40347,9 @@ function Index(props) {
       columnNumber: 27
     }
   }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
+    style: {
+      fontSize: "1rem"
+    },
     color: "info",
     href: "https://github.com/Clobek/Landscaper",
     target: "_blank",
@@ -40347,6 +40361,9 @@ function Index(props) {
       columnNumber: 27
     }
   }, "Github"), __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
+    style: {
+      fontSize: "1rem"
+    },
     color: "danger",
     href: "https://dom-landscaper.netlify.app/",
     target: "_blank",
@@ -40382,7 +40399,7 @@ function Index(props) {
     }
   }, __jsx("img", {
     style: {
-      height: "180px",
+      height: "260px",
       width: "100%",
       display: "block"
     },
@@ -40396,6 +40413,13 @@ function Index(props) {
       columnNumber: 23
     }
   }), __jsx(components_Card_CardBody_js__WEBPACK_IMPORTED_MODULE_18__["default"], {
+    style: {
+      height: "220px",
+      display: "flex",
+      flexFlow: "column",
+      justifyContent: "space-evenly",
+      alignItems: "center"
+    },
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -40405,7 +40429,8 @@ function Index(props) {
   }, __jsx("h1", {
     className: headerClass.cardTitle,
     style: {
-      marginBottom: "0"
+      marginBottom: "0",
+      fontSize: "clamp(2rem, 2vw, 2.5rem)"
     },
     __self: this,
     __source: {
@@ -40416,7 +40441,8 @@ function Index(props) {
   }, "Spacebattle"), __jsx("h3", {
     className: headerClass.cardSubtitle,
     style: {
-      marginTop: "0"
+      marginTop: "0",
+      fontSize: "clamp(1rem, 2vw, 1.3rem"
     },
     __self: this,
     __source: {
@@ -40429,7 +40455,8 @@ function Index(props) {
       display: "flex",
       flexFlow: "row",
       flexWrap: "wrap",
-      justifyContent: "space-evenly"
+      justifyContent: "space-evenly",
+      width: "50%"
     },
     __self: this,
     __source: {
@@ -40438,6 +40465,9 @@ function Index(props) {
       columnNumber: 27
     }
   }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
+    style: {
+      fontSize: "1rem"
+    },
     color: "info",
     href: "https://github.com/Clobek/Spacebattle",
     target: "_blank",
@@ -40449,6 +40479,9 @@ function Index(props) {
       columnNumber: 27
     }
   }, "Github"), __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
+    style: {
+      fontSize: "1rem"
+    },
     color: "danger",
     href: "https://dom-space-battle.netlify.app/",
     target: "_blank",
@@ -40484,7 +40517,7 @@ function Index(props) {
     }
   }, __jsx("img", {
     style: {
-      height: "180px",
+      height: "260px",
       width: "100%",
       display: "block"
     },
@@ -40498,6 +40531,13 @@ function Index(props) {
       columnNumber: 23
     }
   }), __jsx(components_Card_CardBody_js__WEBPACK_IMPORTED_MODULE_18__["default"], {
+    style: {
+      height: "220px",
+      display: "flex",
+      flexFlow: "column",
+      justifyContent: "space-evenly",
+      alignItems: "center"
+    },
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -40507,7 +40547,8 @@ function Index(props) {
   }, __jsx("h1", {
     className: headerClass.cardTitle,
     style: {
-      marginBottom: "0"
+      marginBottom: "0",
+      fontSize: "clamp(2rem, 2vw, 2.5rem)"
     },
     __self: this,
     __source: {
@@ -40518,7 +40559,8 @@ function Index(props) {
   }, "Bookmarkd"), __jsx("h3", {
     className: headerClass.cardSubtitle,
     style: {
-      marginTop: "0"
+      marginTop: "0",
+      fontSize: "clamp(1rem, 2vw, 1.3rem"
     },
     __self: this,
     __source: {
@@ -40531,7 +40573,8 @@ function Index(props) {
       display: "flex",
       flexFlow: "row",
       flexWrap: "wrap",
-      justifyContent: "space-evenly"
+      justifyContent: "space-evenly",
+      width: "50%"
     },
     __self: this,
     __source: {
@@ -40540,6 +40583,9 @@ function Index(props) {
       columnNumber: 23
     }
   }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
+    style: {
+      fontSize: "1rem"
+    },
     color: "info",
     href: "https://github.com/Clobek/Bookmarkd",
     target: "_blank",
@@ -40551,6 +40597,9 @@ function Index(props) {
       columnNumber: 23
     }
   }, "Github"), __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
+    style: {
+      fontSize: "1rem"
+    },
     color: "danger",
     href: "https://bookmarkd.netlify.app/",
     target: "_blank",
@@ -40586,7 +40635,7 @@ function Index(props) {
     }
   }, __jsx("img", {
     style: {
-      height: "180px",
+      height: "260px",
       width: "100%",
       display: "block"
     },
@@ -40600,6 +40649,13 @@ function Index(props) {
       columnNumber: 23
     }
   }), __jsx(components_Card_CardBody_js__WEBPACK_IMPORTED_MODULE_18__["default"], {
+    style: {
+      height: "220px",
+      display: "flex",
+      flexFlow: "column",
+      justifyContent: "space-evenly",
+      alignItems: "center"
+    },
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -40609,7 +40665,8 @@ function Index(props) {
   }, __jsx("h1", {
     className: headerClass.cardTitle,
     style: {
-      marginBottom: "0"
+      marginBottom: "0",
+      fontSize: "clamp(2rem, 2vw, 2.5rem)"
     },
     __self: this,
     __source: {
@@ -40620,7 +40677,8 @@ function Index(props) {
   }, "hORCules"), __jsx("h3", {
     className: headerClass.cardSubtitle,
     style: {
-      marginTop: "0"
+      marginTop: "0",
+      fontSize: "clamp(1rem, 2vw, 1.3rem"
     },
     __self: this,
     __source: {
@@ -40633,7 +40691,8 @@ function Index(props) {
       display: "flex",
       flexFlow: "row",
       flexWrap: "wrap",
-      justifyContent: "space-evenly"
+      justifyContent: "space-evenly",
+      width: "50%"
     },
     __self: this,
     __source: {
@@ -40642,6 +40701,9 @@ function Index(props) {
       columnNumber: 23
     }
   }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
+    style: {
+      fontSize: "1rem"
+    },
     color: "info",
     href: "https://github.com/Clobek/hORCules",
     target: "_blank",
@@ -40653,6 +40715,9 @@ function Index(props) {
       columnNumber: 23
     }
   }, "Github"), __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
+    style: {
+      fontSize: "1rem"
+    },
     color: "danger",
     href: "https://horcules.netlify.app/",
     target: "_blank",
@@ -40688,7 +40753,7 @@ function Index(props) {
     }
   }, __jsx("img", {
     style: {
-      height: "180px",
+      height: "260px",
       width: "100%",
       display: "block"
     },
@@ -40702,6 +40767,13 @@ function Index(props) {
       columnNumber: 23
     }
   }), __jsx(components_Card_CardBody_js__WEBPACK_IMPORTED_MODULE_18__["default"], {
+    style: {
+      height: "220px",
+      display: "flex",
+      flexFlow: "column",
+      justifyContent: "space-evenly",
+      alignItems: "center"
+    },
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -40711,7 +40783,8 @@ function Index(props) {
   }, __jsx("h1", {
     className: headerClass.cardTitle,
     style: {
-      marginBottom: "0"
+      marginBottom: "0",
+      fontSize: "clamp(2rem, 2vw, 2.5rem)"
     },
     __self: this,
     __source: {
@@ -40722,7 +40795,8 @@ function Index(props) {
   }, "Faithbook"), __jsx("h3", {
     className: headerClass.cardSubtitle,
     style: {
-      marginTop: "0"
+      marginTop: "0",
+      fontSize: "clamp(1rem, 2vw, 1.3rem"
     },
     __self: this,
     __source: {
@@ -40735,7 +40809,8 @@ function Index(props) {
       display: "flex",
       flexFlow: "row",
       flexWrap: "wrap",
-      justifyContent: "space-evenly"
+      justifyContent: "space-evenly",
+      width: "50%"
     },
     __self: this,
     __source: {
@@ -40744,6 +40819,9 @@ function Index(props) {
       columnNumber: 27
     }
   }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
+    style: {
+      fontSize: "1rem"
+    },
     color: "info",
     href: "https://github.com/Clobek/FaithBook",
     target: "_blank",
@@ -40755,6 +40833,9 @@ function Index(props) {
       columnNumber: 27
     }
   }, "Github"), __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
+    style: {
+      fontSize: "1rem"
+    },
     color: "danger",
     href: "https://belock.herokuapp.com/",
     target: "_blank",
@@ -40790,7 +40871,7 @@ function Index(props) {
     }
   }, __jsx("img", {
     style: {
-      height: "180px",
+      height: "260px",
       width: "100%",
       display: "block"
     },
@@ -40804,6 +40885,13 @@ function Index(props) {
       columnNumber: 23
     }
   }), __jsx(components_Card_CardBody_js__WEBPACK_IMPORTED_MODULE_18__["default"], {
+    style: {
+      height: "220px",
+      display: "flex",
+      flexFlow: "column",
+      justifyContent: "space-evenly",
+      alignItems: "center"
+    },
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -40813,7 +40901,8 @@ function Index(props) {
   }, __jsx("h1", {
     className: headerClass.cardTitle,
     style: {
-      marginBottom: "0"
+      marginBottom: "0",
+      fontSize: "clamp(2rem, 2vw, 2.5rem)"
     },
     __self: this,
     __source: {
@@ -40824,7 +40913,8 @@ function Index(props) {
   }, "Shipperific"), __jsx("h3", {
     className: headerClass.cardSubtitle,
     style: {
-      marginTop: "0"
+      marginTop: "0",
+      fontSize: "clamp(1rem, 2vw, 1.3rem"
     },
     __self: this,
     __source: {
@@ -40837,7 +40927,8 @@ function Index(props) {
       display: "flex",
       flexFlow: "row",
       flexWrap: "wrap",
-      justifyContent: "space-evenly"
+      justifyContent: "space-evenly",
+      width: "50%"
     },
     __self: this,
     __source: {
@@ -40846,6 +40937,9 @@ function Index(props) {
       columnNumber: 27
     }
   }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
+    style: {
+      fontSize: "1rem"
+    },
     color: "info",
     href: "https://github.com/Clobek/Shipperific",
     target: "_blank",
@@ -40857,6 +40951,9 @@ function Index(props) {
       columnNumber: 27
     }
   }, "Github"), __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
+    style: {
+      fontSize: "1rem"
+    },
     color: "danger",
     href: "https://shipperific.netlify.app/",
     target: "_blank",
@@ -40892,7 +40989,7 @@ function Index(props) {
     }
   }, __jsx("img", {
     style: {
-      height: "180px",
+      height: "260px",
       width: "100%",
       display: "block"
     },
@@ -40906,6 +41003,13 @@ function Index(props) {
       columnNumber: 23
     }
   }), __jsx(components_Card_CardBody_js__WEBPACK_IMPORTED_MODULE_18__["default"], {
+    style: {
+      height: "220px",
+      display: "flex",
+      flexFlow: "column",
+      justifyContent: "space-evenly",
+      alignItems: "center"
+    },
     __self: this,
     __source: {
       fileName: _jsxFileName,
@@ -40915,7 +41019,8 @@ function Index(props) {
   }, __jsx("h1", {
     className: headerClass.cardTitle,
     style: {
-      marginBottom: "0"
+      marginBottom: "0",
+      fontSize: "clamp(2rem, 2vw, 2.5rem)"
     },
     __self: this,
     __source: {
@@ -40926,7 +41031,8 @@ function Index(props) {
   }, "beClock"), __jsx("h3", {
     className: headerClass.cardSubtitle,
     style: {
-      marginTop: "0"
+      marginTop: "0",
+      fontSize: "clamp(1rem, 2vw, 1.3rem"
     },
     __self: this,
     __source: {
@@ -40939,7 +41045,8 @@ function Index(props) {
       display: "flex",
       flexFlow: "row",
       flexWrap: "wrap",
-      justifyContent: "space-evenly"
+      justifyContent: "space-evenly",
+      width: "50%"
     },
     __self: this,
     __source: {
@@ -40948,6 +41055,9 @@ function Index(props) {
       columnNumber: 27
     }
   }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
+    style: {
+      fontSize: "1rem"
+    },
     color: "info",
     href: "https://github.com/Clobek/beClock",
     target: "_blank",
@@ -40959,6 +41069,9 @@ function Index(props) {
       columnNumber: 27
     }
   }, "Github"), __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
+    style: {
+      fontSize: "1rem"
+    },
     color: "danger",
     href: "https://beclock.netlify.app/",
     target: "_blank",
@@ -41409,7 +41522,7 @@ function Index(props) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!***********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fbryce%2FDesktop%2FPortfolio%2Fpages%2Findex.js&hotRouterUpdates=true ***!
   \***********************************************************************************************************************************************/
@@ -41432,5 +41545,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[2,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
