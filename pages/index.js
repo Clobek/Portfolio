@@ -55,9 +55,9 @@ export default function Index (props) {
     return (
       <>
       <Head>
-      <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
       <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"></link>
-      <title>Bryce Belock Portfolio</title>
+      <title>Bryce Belock</title>
+      <link rel="icon" href="/favicon.ico"/>
       </Head>
           <div style={{position: "sticky", top: "0", zIndex: "2", borderBottom: "solid white 1px", margin: "0 !important", padding: "0 !important"}}>
             <Header
