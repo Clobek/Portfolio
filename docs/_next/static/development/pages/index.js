@@ -39381,32 +39381,31 @@ function Index(props) {
       columnNumber: 7
     }
   }, __jsx("link", {
-    rel: "icon",
-    href: "/favicon.ico",
-    type: "image/x-icon",
+    href: "https://fonts.googleapis.com/css2?family=Montserrat&display=swap",
+    rel: "stylesheet",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 58,
       columnNumber: 7
     }
-  }), __jsx("link", {
-    href: "https://fonts.googleapis.com/css2?family=Montserrat&display=swap",
-    rel: "stylesheet",
+  }), __jsx("title", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 59,
       columnNumber: 7
     }
-  }), __jsx("title", {
+  }, "Bryce Belock"), __jsx("link", {
+    rel: "icon",
+    href: "/favicon.ico",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 60,
       columnNumber: 7
     }
-  }, "Bryce Belock Portfolio")), __jsx("div", {
+  })), __jsx("div", {
     style: {
       position: "sticky",
       top: "0",
