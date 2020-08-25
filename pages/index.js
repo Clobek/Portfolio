@@ -328,7 +328,7 @@ export default function Index (props) {
             />
             </div>
             <div id="projects" style={{display: "block", content: "", marginTop: "-75px", height: "75px", visibility: "hidden"}}></div>
-            <h1 style={{width: "100%", display: "flex", justifyContent: "center", fontSize: "3.5rem", marginBottom: "0", fontFamily: "'Montserrat', sans-serif", textShadow: "0 0 10px grey", letterSpacing: "1px"}}>Projects</h1>             
+            <h1 style={{width: "100%", display: "flex", justifyContent: "center", fontSize: "3.5rem", marginBottom: "0", fontFamily: "'Montserrat', sans-serif", textShadow: "0 0 10px grey", letterSpacing: "1px", textAlign: "center"}}>Course Projects</h1>             
             <div className={carouselClass.section} id="carousel" style={{width: "100% !important", display: "flex", justifyContent:"center", margin: "0", padding: "0", paddingBottom: "20px", fontFamily: "'Montserrat', sans-serif"}}>
               <div className={carouselClass.container}>
                 <Carousel {...settings}>
@@ -341,11 +341,11 @@ export default function Index (props) {
                       alt="Application Image"
                       />
                       <CardBody style={{height: "220px", display: "flex", flexFlow: "column", justifyContent: "space-evenly", alignItems: "center"}}>
-                          <h1 className={headerClass.cardTitle} style={{marginBottom: "0", fontSize: "clamp(2rem, 2vw, 2.5rem)"}}>Landscaper</h1>
+                          <h1 className={headerClass.cardTitle} style={{marginBottom: "0", fontSize: "clamp(1.4rem, 2vw, 2.5rem)"}}>Landscaper</h1>
                           <h3 className={headerClass.cardSubtitle} style={{marginTop: "0", fontSize: "clamp(1rem, 2vw, 1.3rem"}}>Week 1 Assignment</h3>
                           <div style={{display: "flex", flexFlow: "row", flexWrap: "wrap", justifyContent: "space-evenly", width: "50%"}}>
-                          <Button style={{fontSize: "1rem"}} color="info" href="https://github.com/Clobek/Landscaper" target="_blank" rel="noopener noreferrer">Github</Button>
-                          <Button style={{fontSize: "1rem"}} color="danger" href="https://dom-landscaper.netlify.app/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
+                          <Button style={{fontSize: "clamp(.7rem, 1vw, 1rem"}} color="info" href="https://github.com/Clobek/Landscaper" target="_blank" rel="noopener noreferrer">Github</Button>
+                          <Button style={{fontSize: "clamp(.7rem, 1vw, 1rem"}} color="danger" href="https://dom-landscaper.netlify.app/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
                           </div> 
                       </CardBody>
                       </Card>
@@ -359,11 +359,11 @@ export default function Index (props) {
                       alt="Application Image"
                       />
                       <CardBody style={{height: "220px", display: "flex", flexFlow: "column", justifyContent: "space-evenly", alignItems: "center"}}>
-                          <h1 className={headerClass.cardTitle} style={{marginBottom: "0", fontSize: "clamp(2rem, 2vw, 2.5rem)"}}>Spacebattle</h1>
+                          <h1 className={headerClass.cardTitle} style={{marginBottom: "0", fontSize: "clamp(1.4rem, 2vw, 2.5rem)"}}>Spacebattle</h1>
                           <h3 className={headerClass.cardSubtitle} style={{marginTop: "0", fontSize: "clamp(1rem, 2vw, 1.3rem"}}>Week 2 Assignment</h3>
                           <div style={{display: "flex", flexFlow: "row", flexWrap: "wrap", justifyContent: "space-evenly", width: "50%"}}>
-                          <Button style={{fontSize: "1rem"}} color="info" href="https://github.com/Clobek/Spacebattle" target="_blank" rel="noopener noreferrer">Github</Button>
-                          <Button style={{fontSize: "1rem"}} color="danger" href="https://dom-space-battle.netlify.app/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
+                          <Button style={{fontSize: "clamp(.7rem, 1vw, 1rem"}} color="info" href="https://github.com/Clobek/Spacebattle" target="_blank" rel="noopener noreferrer">Github</Button>
+                          <Button style={{fontSize: "clamp(.7rem, 1vw, 1rem"}} color="danger" href="https://dom-space-battle.netlify.app/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
                           </div> 
                       </CardBody>
                       </Card>
@@ -377,11 +377,11 @@ export default function Index (props) {
                       alt="Application Image"
                       />
                       <CardBody style={{height: "220px", display: "flex", flexFlow: "column", justifyContent: "space-evenly", alignItems: "center"}}>
-                      <h1 className={headerClass.cardTitle} style={{marginBottom: "0", fontSize: "clamp(2rem, 2vw, 2.5rem)"}}>Bookmarkd</h1>
+                      <h1 className={headerClass.cardTitle} style={{marginBottom: "0", fontSize: "clamp(1.4rem, 2vw, 2.5rem)"}}>Bookmarkd</h1>
                       <h3 className={headerClass.cardSubtitle} style={{marginTop: "0", fontSize: "clamp(1rem, 2vw, 1.3rem"}}>1st Team Assignment</h3>
                       <div style={{display: "flex", flexFlow: "row", flexWrap: "wrap", justifyContent: "space-evenly", width: "50%"}}>
-                      <Button style={{fontSize: "1rem"}} color="info" href="https://github.com/Clobek/Bookmarkd" target="_blank" rel="noopener noreferrer">Github</Button>
-                      <Button style={{fontSize: "1rem"}} color="danger" href="https://bookmarkd.netlify.app/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
+                      <Button style={{fontSize: "clamp(.7rem, 1vw, 1rem"}} color="info" href="https://github.com/Clobek/Bookmarkd" target="_blank" rel="noopener noreferrer">Github</Button>
+                      <Button style={{fontSize: "clamp(.7rem, 1vw, 1rem"}} color="danger" href="https://bookmarkd.netlify.app/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
                       </div> 
                       </CardBody>
                       </Card>
@@ -395,11 +395,11 @@ export default function Index (props) {
                       alt="Application Image"
                       />
                       <CardBody style={{height: "220px", display: "flex", flexFlow: "column", justifyContent: "space-evenly", alignItems: "center"}}>
-                      <h1 className={headerClass.cardTitle} style={{marginBottom: "0", fontSize: "clamp(2rem, 2vw, 2.5rem)"}}>hORCules</h1>
+                      <h1 className={headerClass.cardTitle} style={{marginBottom: "0", fontSize: "clamp(1.4rem, 2vw, 2.5rem)"}}>hORCules</h1>
                       <h3 className={headerClass.cardSubtitle} style={{marginTop: "0", fontSize: "clamp(1rem, 2vw, 1.3rem"}}>Unit 1 Project</h3>
                       <div style={{display: "flex", flexFlow: "row", flexWrap: "wrap", justifyContent: "space-evenly", width: "50%"}}>
-                      <Button style={{fontSize: "1rem"}} color="info" href="https://github.com/Clobek/hORCules" target="_blank" rel="noopener noreferrer">Github</Button>
-                      <Button style={{fontSize: "1rem"}} color="danger" href="https://horcules.netlify.app/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
+                      <Button style={{fontSize: "clamp(.7rem, 1vw, 1rem"}} color="info" href="https://github.com/Clobek/hORCules" target="_blank" rel="noopener noreferrer">Github</Button>
+                      <Button style={{fontSize: "clamp(.7rem, 1vw, 1rem"}} color="danger" href="https://horcules.netlify.app/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
                       </div> 
                       </CardBody>
                       </Card>
@@ -413,11 +413,11 @@ export default function Index (props) {
                       alt="Application Image"
                       />
                       <CardBody style={{height: "220px", display: "flex", flexFlow: "column", justifyContent: "space-evenly", alignItems: "center"}}>
-                      <h1 className={headerClass.cardTitle} style={{marginBottom: "0", fontSize: "clamp(2rem, 2vw, 2.5rem)"}}>Faithbook</h1>
+                      <h1 className={headerClass.cardTitle} style={{marginBottom: "0", fontSize: "clamp(1.4rem, 2vw, 2.5rem)"}}>Faithbook</h1>
                           <h3 className={headerClass.cardSubtitle} style={{marginTop: "0", fontSize: "clamp(1rem, 2vw, 1.3rem"}}>Unit 2 Project</h3>
                           <div style={{display: "flex", flexFlow: "row", flexWrap: "wrap", justifyContent: "space-evenly", width: "50%"}}>
-                          <Button style={{fontSize: "1rem"}} color="info" href="https://github.com/Clobek/FaithBook" target="_blank" rel="noopener noreferrer">Github</Button>
-                          <Button style={{fontSize: "1rem"}} color="danger" href="https://belock.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
+                          <Button style={{fontSize: "clamp(.7rem, 1vw, 1rem"}} color="info" href="https://github.com/Clobek/FaithBook" target="_blank" rel="noopener noreferrer">Github</Button>
+                          <Button style={{fontSize: "clamp(.7rem, 1vw, 1rem"}} color="danger" href="https://belock.herokuapp.com/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
                           </div> 
                       </CardBody>
                       </Card>
@@ -431,11 +431,11 @@ export default function Index (props) {
                       alt="Application Image"
                       />
                       <CardBody style={{height: "220px", display: "flex", flexFlow: "column", justifyContent: "space-evenly", alignItems: "center"}}>
-                          <h1 className={headerClass.cardTitle} style={{marginBottom: "0", fontSize: "clamp(2rem, 2vw, 2.5rem)"}}>Shipperific</h1>
+                          <h1 className={headerClass.cardTitle} style={{marginBottom: "0", fontSize: "clamp(1.4rem, 2vw, 2.5rem)"}}>Shipperific</h1>
                           <h3 className={headerClass.cardSubtitle} style={{marginTop: "0", fontSize: "clamp(1rem, 2vw, 1.3rem"}}>Unit 3 Project</h3>
                           <div style={{display: "flex", flexFlow: "row", flexWrap: "wrap", justifyContent: "space-evenly", width: "50%"}}>
-                          <Button style={{fontSize: "1rem"}} color="info" href="https://github.com/Clobek/Shipperific" target="_blank" rel="noopener noreferrer">Github</Button>
-                          <Button style={{fontSize: "1rem"}} color="danger" href="https://shipperific.netlify.app/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
+                          <Button style={{fontSize: "clamp(.7rem, 1vw, 1rem"}} color="info" href="https://github.com/Clobek/Shipperific" target="_blank" rel="noopener noreferrer">Github</Button>
+                          <Button style={{fontSize: "clamp(.7rem, 1vw, 1rem"}} color="danger" href="https://shipperific.netlify.app/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
                           </div> 
                       </CardBody>
                       </Card>
@@ -449,12 +449,56 @@ export default function Index (props) {
                       alt="Application Image"
                       />
                       <CardBody style={{height: "220px", display: "flex", flexFlow: "column", justifyContent: "space-evenly", alignItems: "center"}}>
-                          <h1 className={headerClass.cardTitle} style={{marginBottom: "0", fontSize: "clamp(2rem, 2vw, 2.5rem)"}}>beClock</h1>
+                          <h1 className={headerClass.cardTitle} style={{marginBottom: "0", fontSize: "clamp(1.4rem, 2vw, 2.5rem)"}}>beClock</h1>
                           <h3 className={headerClass.cardSubtitle} style={{marginTop: "0", fontSize: "clamp(1rem, 2vw, 1.3rem"}}>Final Project</h3>
                           <div style={{display: "flex", flexFlow: "row", flexWrap: "wrap", justifyContent: "space-evenly", width: "50%"}}>
-                          <Button style={{fontSize: "1rem"}} color="info" href="https://github.com/Clobek/beClock" target="_blank" rel="noopener noreferrer">Github</Button>
-                          <Button style={{fontSize: "1rem"}} color="danger" href="https://beclock.netlify.app/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
+                          <Button style={{fontSize: "clamp(.7rem, 1vw, 1rem"}} color="info" href="https://github.com/Clobek/beClock" target="_blank" rel="noopener noreferrer">Github</Button>
+                          <Button style={{fontSize: "clamp(.7rem, 1vw, 1rem"}} color="danger" href="https://beclock.netlify.app/" target="_blank" rel="noopener noreferrer">Live Application!</Button>
                           </div> 
+                      </CardBody>
+                      </Card>
+                      </div>
+                </Carousel>
+              </div>
+            </div>
+            <h1 style={{width: "100%", display: "flex", justifyContent: "center", fontSize: "3.5rem", marginBottom: "0", fontFamily: "'Montserrat', sans-serif", textShadow: "0 0 10px grey", letterSpacing: "1px", textAlign: "center"}}>Postcourse Projects</h1>             
+            <div className={carouselClass.section} id="carousel" style={{width: "100% !important", display: "flex", justifyContent:"center", margin: "0", padding: "0", paddingBottom: "20px", fontFamily: "'Montserrat', sans-serif"}}>
+              <div className={carouselClass.container}>
+                <Carousel {...settings}>
+                      <div style={{width: "100% !important", border: "solid black"}}>
+                      <Card style={{width: "99%", textAlign: 'center', boxShadow: "0 0 .8rem grey"}}>
+                      <img
+                      style={{ height: "260px", width: "100%", display: "block"}}
+                      className={headerClass.imgCardTop}
+                      src="https://i.imgur.com/gecIj9F.png"
+                      alt="Application Image"
+                      />
+                      <CardBody style={{height: "220px", display: "flex", flexFlow: "column", justifyContent: "space-evenly", alignItems: "center"}}>
+                          <h1 className={headerClass.cardTitle} style={{marginBottom: "0", fontSize: "clamp(1.4rem, 2vw, 2.5rem)"}}>Youtherapy</h1>
+                          <h3 className={headerClass.cardSubtitle} style={{marginTop: "0", fontSize: "clamp(1rem, 2vw, 1.3rem"}}>Skincare</h3>
+                          <div style={{display: "flex", flexFlow: "row", flexWrap: "wrap", justifyContent: "space-evenly", width: "50%"}}>
+                          <Button style={{fontSize: "clamp(.7rem, 1vw, 1rem"}} color="info" href="https://github.com/Clobek/Youtherapy" target="_blank" rel="noopener noreferrer">Github</Button>
+                          <Button style={{fontSize: "clamp(.7rem, 1vw, 1rem"}} color="danger" href="https://youtherapyskin.com" target="_blank" rel="noopener noreferrer">Live Application!</Button>
+                          </div> 
+                      </CardBody>
+                      </Card>
+                      </div>
+                      
+                      <div style={{width: "100% !important", border: "solid black"}}>
+                      <Card style={{width: "99%", textAlign: 'center', boxShadow: "0 0 .8rem grey"}}>
+                      <img
+                      style={{ height: "260px", width: "100%", display: "block"}}
+                      className={headerClass.imgCardTop}
+                      src="https://i.imgur.com/LGcgjLB.png"
+                      alt="Application Image"
+                      />
+                      <CardBody style={{height: "220px", display: "flex", flexFlow: "column", justifyContent: "space-evenly", alignItems: "center"}}>
+                          <h1 className={headerClass.cardTitle} style={{marginBottom: "0", fontSize: "clamp(1.4rem, 2vw, 2.5rem)"}}>Affordable Electrician</h1>
+                          <h3 className={headerClass.cardSubtitle} style={{marginTop: "0", fontSize: "clamp(1rem, 2vw, 1.3rem"}}>Electrician</h3>
+                          {/* <div style={{display: "flex", flexFlow: "row", flexWrap: "wrap", justifyContent: "space-evenly", width: "50%"}}>
+                          <Button style={{fontSize: "clamp(.7rem, 1vw, 1rem"}} color="info" href="https://github.com/Clobek/beClock" target="_blank" rel="noopener noreferrer">Github</Button>
+                          <Button style={{fontSize: "clamp(.7rem, 1vw, 1rem"}} color="danger" href="https://beclock.netlify.app/" target="_blank" rel="noopener noreferrer">Live application!</Button>
+                          </div>  */}
                       </CardBody>
                       </Card>
                       </div>
