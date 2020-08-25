@@ -40214,7 +40214,8 @@ function Index(props) {
       marginBottom: "0",
       fontFamily: "'Montserrat', sans-serif",
       textShadow: "0 0 10px grey",
-      letterSpacing: "1px"
+      letterSpacing: "1px",
+      textAlign: "center"
     },
     __self: this,
     __source: {
@@ -40222,7 +40223,7 @@ function Index(props) {
       lineNumber: 331,
       columnNumber: 13
     }
-  }, "Projects"), __jsx("div", {
+  }, "Course Projects"), __jsx("div", {
     className: carouselClass.section,
     id: "carousel",
     style: {
@@ -40311,7 +40312,7 @@ function Index(props) {
     className: headerClass.cardTitle,
     style: {
       marginBottom: "0",
-      fontSize: "clamp(2rem, 2vw, 2.5rem)"
+      fontSize: "clamp(1.4rem, 2vw, 2.5rem)"
     },
     __self: this,
     __source: {
@@ -40347,7 +40348,7 @@ function Index(props) {
     }
   }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
     style: {
-      fontSize: "1rem"
+      fontSize: "clamp(.7rem, 1vw, 1rem"
     },
     color: "info",
     href: "https://github.com/Clobek/Landscaper",
@@ -40361,7 +40362,7 @@ function Index(props) {
     }
   }, "Github"), __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
     style: {
-      fontSize: "1rem"
+      fontSize: "clamp(.7rem, 1vw, 1rem"
     },
     color: "danger",
     href: "https://dom-landscaper.netlify.app/",
@@ -40429,7 +40430,7 @@ function Index(props) {
     className: headerClass.cardTitle,
     style: {
       marginBottom: "0",
-      fontSize: "clamp(2rem, 2vw, 2.5rem)"
+      fontSize: "clamp(1.4rem, 2vw, 2.5rem)"
     },
     __self: this,
     __source: {
@@ -40465,7 +40466,7 @@ function Index(props) {
     }
   }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
     style: {
-      fontSize: "1rem"
+      fontSize: "clamp(.7rem, 1vw, 1rem"
     },
     color: "info",
     href: "https://github.com/Clobek/Spacebattle",
@@ -40479,7 +40480,7 @@ function Index(props) {
     }
   }, "Github"), __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
     style: {
-      fontSize: "1rem"
+      fontSize: "clamp(.7rem, 1vw, 1rem"
     },
     color: "danger",
     href: "https://dom-space-battle.netlify.app/",
@@ -40547,7 +40548,7 @@ function Index(props) {
     className: headerClass.cardTitle,
     style: {
       marginBottom: "0",
-      fontSize: "clamp(2rem, 2vw, 2.5rem)"
+      fontSize: "clamp(1.4rem, 2vw, 2.5rem)"
     },
     __self: this,
     __source: {
@@ -40583,7 +40584,7 @@ function Index(props) {
     }
   }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
     style: {
-      fontSize: "1rem"
+      fontSize: "clamp(.7rem, 1vw, 1rem"
     },
     color: "info",
     href: "https://github.com/Clobek/Bookmarkd",
@@ -40597,7 +40598,7 @@ function Index(props) {
     }
   }, "Github"), __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
     style: {
-      fontSize: "1rem"
+      fontSize: "clamp(.7rem, 1vw, 1rem"
     },
     color: "danger",
     href: "https://bookmarkd.netlify.app/",
@@ -40665,7 +40666,7 @@ function Index(props) {
     className: headerClass.cardTitle,
     style: {
       marginBottom: "0",
-      fontSize: "clamp(2rem, 2vw, 2.5rem)"
+      fontSize: "clamp(1.4rem, 2vw, 2.5rem)"
     },
     __self: this,
     __source: {
@@ -40701,7 +40702,7 @@ function Index(props) {
     }
   }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
     style: {
-      fontSize: "1rem"
+      fontSize: "clamp(.7rem, 1vw, 1rem"
     },
     color: "info",
     href: "https://github.com/Clobek/hORCules",
@@ -40715,7 +40716,7 @@ function Index(props) {
     }
   }, "Github"), __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
     style: {
-      fontSize: "1rem"
+      fontSize: "clamp(.7rem, 1vw, 1rem"
     },
     color: "danger",
     href: "https://horcules.netlify.app/",
@@ -40783,7 +40784,7 @@ function Index(props) {
     className: headerClass.cardTitle,
     style: {
       marginBottom: "0",
-      fontSize: "clamp(2rem, 2vw, 2.5rem)"
+      fontSize: "clamp(1.4rem, 2vw, 2.5rem)"
     },
     __self: this,
     __source: {
@@ -40819,7 +40820,7 @@ function Index(props) {
     }
   }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
     style: {
-      fontSize: "1rem"
+      fontSize: "clamp(.7rem, 1vw, 1rem"
     },
     color: "info",
     href: "https://github.com/Clobek/FaithBook",
@@ -40833,7 +40834,7 @@ function Index(props) {
     }
   }, "Github"), __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
     style: {
-      fontSize: "1rem"
+      fontSize: "clamp(.7rem, 1vw, 1rem"
     },
     color: "danger",
     href: "https://belock.herokuapp.com/",
@@ -40901,7 +40902,7 @@ function Index(props) {
     className: headerClass.cardTitle,
     style: {
       marginBottom: "0",
-      fontSize: "clamp(2rem, 2vw, 2.5rem)"
+      fontSize: "clamp(1.4rem, 2vw, 2.5rem)"
     },
     __self: this,
     __source: {
@@ -40937,7 +40938,7 @@ function Index(props) {
     }
   }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
     style: {
-      fontSize: "1rem"
+      fontSize: "clamp(.7rem, 1vw, 1rem"
     },
     color: "info",
     href: "https://github.com/Clobek/Shipperific",
@@ -40951,7 +40952,7 @@ function Index(props) {
     }
   }, "Github"), __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
     style: {
-      fontSize: "1rem"
+      fontSize: "clamp(.7rem, 1vw, 1rem"
     },
     color: "danger",
     href: "https://shipperific.netlify.app/",
@@ -41019,7 +41020,7 @@ function Index(props) {
     className: headerClass.cardTitle,
     style: {
       marginBottom: "0",
-      fontSize: "clamp(2rem, 2vw, 2.5rem)"
+      fontSize: "clamp(1.4rem, 2vw, 2.5rem)"
     },
     __self: this,
     __source: {
@@ -41055,7 +41056,7 @@ function Index(props) {
     }
   }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
     style: {
-      fontSize: "1rem"
+      fontSize: "clamp(.7rem, 1vw, 1rem"
     },
     color: "info",
     href: "https://github.com/Clobek/beClock",
@@ -41069,7 +41070,7 @@ function Index(props) {
     }
   }, "Github"), __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
     style: {
-      fontSize: "1rem"
+      fontSize: "clamp(.7rem, 1vw, 1rem"
     },
     color: "danger",
     href: "https://beclock.netlify.app/",
@@ -41081,7 +41082,252 @@ function Index(props) {
       lineNumber: 456,
       columnNumber: 27
     }
-  }, "Live Application!")))))))), __jsx("div", {
+  }, "Live Application!")))))))), __jsx("h1", {
+    style: {
+      width: "100%",
+      display: "flex",
+      justifyContent: "center",
+      fontSize: "3.5rem",
+      marginBottom: "0",
+      fontFamily: "'Montserrat', sans-serif",
+      textShadow: "0 0 10px grey",
+      letterSpacing: "1px",
+      textAlign: "center"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 464,
+      columnNumber: 13
+    }
+  }, "Postcourse Projects"), __jsx("div", {
+    className: carouselClass.section,
+    id: "carousel",
+    style: {
+      width: "100% !important",
+      display: "flex",
+      justifyContent: "center",
+      margin: "0",
+      padding: "0",
+      paddingBottom: "20px",
+      fontFamily: "'Montserrat', sans-serif"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 465,
+      columnNumber: 13
+    }
+  }, __jsx("div", {
+    className: carouselClass.container,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 466,
+      columnNumber: 15
+    }
+  }, __jsx(react_slick__WEBPACK_IMPORTED_MODULE_6___default.a, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_2__["default"])({}, settings, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 467,
+      columnNumber: 17
+    }
+  }), __jsx("div", {
+    style: {
+      width: "100% !important",
+      border: "solid black"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 468,
+      columnNumber: 23
+    }
+  }, __jsx(components_Card_Card_js__WEBPACK_IMPORTED_MODULE_14__["default"], {
+    style: {
+      width: "99%",
+      textAlign: 'center',
+      boxShadow: "0 0 .8rem grey"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 469,
+      columnNumber: 23
+    }
+  }, __jsx("img", {
+    style: {
+      height: "260px",
+      width: "100%",
+      display: "block"
+    },
+    className: headerClass.imgCardTop,
+    src: "https://i.imgur.com/gecIj9F.png",
+    alt: "Application Image",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 470,
+      columnNumber: 23
+    }
+  }), __jsx(components_Card_CardBody_js__WEBPACK_IMPORTED_MODULE_18__["default"], {
+    style: {
+      height: "220px",
+      display: "flex",
+      flexFlow: "column",
+      justifyContent: "space-evenly",
+      alignItems: "center"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 476,
+      columnNumber: 23
+    }
+  }, __jsx("h1", {
+    className: headerClass.cardTitle,
+    style: {
+      marginBottom: "0",
+      fontSize: "clamp(1.4rem, 2vw, 2.5rem)"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 477,
+      columnNumber: 27
+    }
+  }, "Youtherapy"), __jsx("h3", {
+    className: headerClass.cardSubtitle,
+    style: {
+      marginTop: "0",
+      fontSize: "clamp(1rem, 2vw, 1.3rem"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 478,
+      columnNumber: 27
+    }
+  }, "Skincare"), __jsx("div", {
+    style: {
+      display: "flex",
+      flexFlow: "row",
+      flexWrap: "wrap",
+      justifyContent: "space-evenly",
+      width: "50%"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 479,
+      columnNumber: 27
+    }
+  }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
+    style: {
+      fontSize: "clamp(.7rem, 1vw, 1rem"
+    },
+    color: "info",
+    href: "https://github.com/Clobek/Youtherapy",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 480,
+      columnNumber: 27
+    }
+  }, "Github"), __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
+    style: {
+      fontSize: "clamp(.7rem, 1vw, 1rem"
+    },
+    color: "danger",
+    href: "https://youtherapyskin.com",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 481,
+      columnNumber: 27
+    }
+  }, "Live Application!"))))), __jsx("div", {
+    style: {
+      width: "100% !important",
+      border: "solid black"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 487,
+      columnNumber: 23
+    }
+  }, __jsx(components_Card_Card_js__WEBPACK_IMPORTED_MODULE_14__["default"], {
+    style: {
+      width: "99%",
+      textAlign: 'center',
+      boxShadow: "0 0 .8rem grey"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 488,
+      columnNumber: 23
+    }
+  }, __jsx("img", {
+    style: {
+      height: "260px",
+      width: "100%",
+      display: "block"
+    },
+    className: headerClass.imgCardTop,
+    src: "https://i.imgur.com/LGcgjLB.png",
+    alt: "Application Image",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 489,
+      columnNumber: 23
+    }
+  }), __jsx(components_Card_CardBody_js__WEBPACK_IMPORTED_MODULE_18__["default"], {
+    style: {
+      height: "220px",
+      display: "flex",
+      flexFlow: "column",
+      justifyContent: "space-evenly",
+      alignItems: "center"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 495,
+      columnNumber: 23
+    }
+  }, __jsx("h1", {
+    className: headerClass.cardTitle,
+    style: {
+      marginBottom: "0",
+      fontSize: "clamp(1.4rem, 2vw, 2.5rem)"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 496,
+      columnNumber: 27
+    }
+  }, "Affordable Electrician"), __jsx("h3", {
+    className: headerClass.cardSubtitle,
+    style: {
+      marginTop: "0",
+      fontSize: "clamp(1rem, 2vw, 1.3rem"
+    },
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 497,
+      columnNumber: 27
+    }
+  }, "Electrician"))))))), __jsx("div", {
     id: "links",
     style: {
       display: "block",
@@ -41093,7 +41339,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 464,
+      lineNumber: 508,
       columnNumber: 13
     }
   }), __jsx(components_Footer_Footer_js__WEBPACK_IMPORTED_MODULE_20__["default"], {
@@ -41108,7 +41354,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 468,
+        lineNumber: 512,
         columnNumber: 13
       }
     }, __jsx("div", {
@@ -41116,7 +41362,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 469,
+        lineNumber: 513,
         columnNumber: 15
       }
     }, __jsx(_material_ui_core_List__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -41124,7 +41370,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 470,
+        lineNumber: 514,
         columnNumber: 17
       }
     }, __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_13__["default"], {
@@ -41132,7 +41378,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 471,
+        lineNumber: 515,
         columnNumber: 17
       }
     }, __jsx("a", (_jsx = {
@@ -41148,7 +41394,7 @@ function Index(props) {
       fontSize: "1rem"
     }), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "__self", this), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx, "__source", {
       fileName: _jsxFileName,
-      lineNumber: 472,
+      lineNumber: 516,
       columnNumber: 21
     }), _jsx), "Website Technologies"), __jsx(_material_ui_core_Dialog__WEBPACK_IMPORTED_MODULE_9__["default"], {
       modalclass: {
@@ -41166,7 +41412,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 480,
+        lineNumber: 524,
         columnNumber: 21
       }
     }, __jsx(_material_ui_core_DialogTitle__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -41176,7 +41422,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 492,
+        lineNumber: 536,
         columnNumber: 21
       }
     }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -41190,7 +41436,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 497,
+        lineNumber: 541,
         columnNumber: 23
       }
     }, " ", __jsx(_material_ui_icons_Close__WEBPACK_IMPORTED_MODULE_16___default.a, {
@@ -41198,7 +41444,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 505,
+        lineNumber: 549,
         columnNumber: 25
       }
     })), __jsx("h1", {
@@ -41210,7 +41456,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 507,
+        lineNumber: 551,
         columnNumber: 23
       }
     }, "Technologies Used")), __jsx(_material_ui_core_DialogContent__WEBPACK_IMPORTED_MODULE_11__["default"], {
@@ -41224,35 +41470,35 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 509,
+        lineNumber: 553,
         columnNumber: 21
       }
     }, __jsx("h2", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 514,
+        lineNumber: 558,
         columnNumber: 23
       }
     }, "Front-End"), __jsx("p", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 515,
+        lineNumber: 559,
         columnNumber: 23
       }
     }, "The front-end is written in JavaScript with NextJS as the framework. I'm making use of a UI Kit called NextJS Material Kit which is based on Material-UI, as well as some React inline styling."), __jsx("h2", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 516,
+        lineNumber: 560,
         columnNumber: 23
       }
     }, "Back-End"), __jsx("p", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 517,
+        lineNumber: 561,
         columnNumber: 23
       }
     }, "Originally written in Python using Django as the framework for managing the routes and storing the data in PostgreSQL. Once running on a linux based VPS through DigitalOcean, all data is now hardcoded for efficiency due to the scale and needs of my porfolio.")))), __jsx(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_13__["default"], {
@@ -41260,7 +41506,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 521,
+        lineNumber: 565,
         columnNumber: 19
       }
     }, __jsx("a", (_jsx2 = {
@@ -41276,7 +41522,7 @@ function Index(props) {
       fontSize: "1rem"
     }), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx2, "__self", this), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(_jsx2, "__source", {
       fileName: _jsxFileName,
-      lineNumber: 522,
+      lineNumber: 566,
       columnNumber: 21
     }), _jsx2), "Contact Information"), __jsx(_material_ui_core_Dialog__WEBPACK_IMPORTED_MODULE_9__["default"], {
       modalclass: {
@@ -41294,7 +41540,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 530,
+        lineNumber: 574,
         columnNumber: 21
       }
     }, __jsx(_material_ui_core_DialogTitle__WEBPACK_IMPORTED_MODULE_10__["default"], {
@@ -41304,7 +41550,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 542,
+        lineNumber: 586,
         columnNumber: 21
       }
     }, __jsx(components_CustomButtons_Button_js__WEBPACK_IMPORTED_MODULE_19__["default"], {
@@ -41318,7 +41564,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 547,
+        lineNumber: 591,
         columnNumber: 23
       }
     }, " ", __jsx(_material_ui_icons_Close__WEBPACK_IMPORTED_MODULE_16___default.a, {
@@ -41326,7 +41572,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 555,
+        lineNumber: 599,
         columnNumber: 25
       }
     })), __jsx("h1", {
@@ -41338,7 +41584,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 557,
+        lineNumber: 601,
         columnNumber: 23
       }
     }, "Contact Information")), __jsx(_material_ui_core_DialogContent__WEBPACK_IMPORTED_MODULE_11__["default"], {
@@ -41352,28 +41598,28 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 559,
+        lineNumber: 603,
         columnNumber: 21
       }
     }, __jsx("h2", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 564,
+        lineNumber: 608,
         columnNumber: 23
       }
     }, "Location: Bettendorf, Iowa"), __jsx("h2", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 565,
+        lineNumber: 609,
         columnNumber: 23
       }
     }, "Phone: (563)320-4663"), __jsx("h2", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 566,
+        lineNumber: 610,
         columnNumber: 23
       }
     }, "Email: bryce@belock.dev"), __jsx("p", {
@@ -41383,7 +41629,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 567,
+        lineNumber: 611,
         columnNumber: 23
       }
     }, "* I tend to not answer calls from numbers I do not know. Send a text or make sure to leave a message.")))))), __jsx("div", {
@@ -41391,21 +41637,21 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 573,
+        lineNumber: 617,
         columnNumber: 15
       }
     }, __jsx("ul", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 574,
+        lineNumber: 618,
         columnNumber: 17
       }
     }, __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 575,
+        lineNumber: 619,
         columnNumber: 19
       }
     }, __jsx("a", {
@@ -41415,7 +41661,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 576,
+        lineNumber: 620,
         columnNumber: 21
       }
     }, __jsx("i", {
@@ -41427,14 +41673,14 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 577,
+        lineNumber: 621,
         columnNumber: 23
       }
     }))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 590,
+        lineNumber: 634,
         columnNumber: 19
       }
     }, __jsx("a", {
@@ -41444,7 +41690,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 591,
+        lineNumber: 635,
         columnNumber: 21
       }
     }, __jsx("i", {
@@ -41456,14 +41702,14 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 592,
+        lineNumber: 636,
         columnNumber: 23
       }
     }))), __jsx("li", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 605,
+        lineNumber: 649,
         columnNumber: 19
       }
     }, __jsx("a", {
@@ -41473,7 +41719,7 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 606,
+        lineNumber: 650,
         columnNumber: 21
       }
     }, __jsx("i", {
@@ -41485,14 +41731,14 @@ function Index(props) {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 607,
+        lineNumber: 651,
         columnNumber: 23
       }
     })))))),
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 465,
+      lineNumber: 509,
       columnNumber: 13
     }
   }), __jsx("script", {
@@ -41501,7 +41747,7 @@ function Index(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 625,
+      lineNumber: 669,
       columnNumber: 9
     }
   }));
